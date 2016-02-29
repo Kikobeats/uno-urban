@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=a44c9e9d">
+    <script src="../assets/script.js?t=2bcc4b59"></script>
+    <title>Customization</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="body page-devcustomization">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="customization">Customization</h1>
+<h2 id="highlight-code-support">Highlight Code Support</h2>
+<p>The code highlight is based in <a href="http://prismjs.com/">Prism</a>. By default, the languages supported are:</p>
+<pre><code>markup, css, c, javascript
+</code></pre>
+<p>If you want to support more languages:</p>
+<ol>
+<li>go to <a href="http://prismjs.com/download.html">prismjs.com/download</a>,</li>
+<li>generate your custom highlight code</li>
+<li>paste in the <a href="https://github.com/Kikobeats/uno-zen/blob/master/assets/scss/modules/_prism.scss">prism file</a></li>
+<li>compile the assets</li>
+</ol>
+<p>Be careful, the current prism code is integrated with the color schema of the theme. You need to edit manually to get the correct look and feel.</p>
+<h2 id="google-analytics">Google Analytics</h2>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code> and add:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+<span class="pl-k">var</span> ga_id = <span class="pl-s">&apos;UA-YOUR_ID_HERE&apos;</span>;
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="comments">Comments</h2>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code> and add:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+<span class="pl-k">var</span> disqus_shortname = <span class="pl-s">&apos;YOUR_DISQUS_SHORTCUT_HERE&apos;</span>;
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="open-button">Open Button</h2>
+<p>By default, the open buttons works binding the event of open the blog with a button called &apos;Posts&apos; created into Ghost Navigation section. Here is the piece of code that create the bind:</p>
+<pre><code class="lang-js"><span class="pl-k">var</span> openButton = <span class="pl-c1">window</span>.open_button || <span class="pl-s">&apos;.nav-posts &gt; a&apos;</span>
+</code></pre>
+<p>As you see, you can specify a different button selector. For example, if You want to open your blog under &apos;Blog&apos; button, then you add this in <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code>:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+<span class="pl-k">var</span> open_button = <span class="pl-s">&apos;.nav-blog &gt; a&apos;</span>
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="profile-title">Profile title</h2>
+<p>By default, the title that you see in the open page of your blog is extracted from your blog settings (<code>Admin Panel</code> &#x2192; Blog Title).</p>
+<p>If you want to customize it, you can do it:</p>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code> and add:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+<span class="pl-k">var</span> profile_title = <span class="pl-s">&apos;Kiko Beats&apos;</span>;
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="profile-subtitle">Profile subtitle</h2>
+<p>The purpose of the subtitle is resume the bio in a phrase. This will be shown in the mobile/tablet version instead of the bio.</p>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code> and add:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+<span class="pl-k">var</span> profile_resume =<span class="pl-s">&apos;Software Engineer&apos;</span>;
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="posts-headline">Posts Headline</h2>
+<p>By default, the title that you see in the page with your blog posts list is &apos;Writings.&apos; but you might want to adjust this text.</p>
+<p>If you want to customize it, you can do it:</p>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code> and add:</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="actionscript">
+<span class="pl-k">var</span> posts_headline = <span class="pl-s">&apos;Random Stuff&apos;</span>;
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+<h2 id="colors">Colors</h2>
+<p>Edit the file <code>assets/scss/modules/_variables.scss</code>. Remember that is necessary compile the build to load the new style, so keep running your gulp process in background.</p>
+<h2 id="social-networks">Social Networks</h2>
+<p>Edit the file <code>partials/social.hbs</code>.</p>
+<h2 id="links">Links</h2>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; <code>Navigation</code> and add/edit items.</p>
+<p>&quot;Blog&quot; link is always included by default, so you don&apos;t need to add it manually.</p>
+<h2 id="favicon">Favicon</h2>
+<p>Create your favicons with <a href="http://realfavicongenerator.net/">Favicon Generator</a> and put it into <code>assets/img</code>.</p>
+<h2 id="cover">Cover</h2>
+<p>Go to Ghost <code>Admin Panel</code> &#x2192; General &#x2192; <code>Blog Cover</code>.</p>
+<p>The linear gradient of the cover filter is based in <code>$cover-primary</code> and <code>$cover-secondary</code> colors. If you want to adapt the filter for your cover, check <a href="https://github.com/Kikobeats/uno-zen/blob/master/assets/scss/modules/_utils.scss#L19">background-filter</a> mixin.</p>
+<h2 id="custom-static-pages">Custom static pages</h2>
+<p>Check the <a href="http://themes.ghost.org/v0.6.4/docs/page-context">page part</a> in the Ghost Official Documentation.</p>
+<h2 id="progress-bar">Progress Bar</h2>
+<p>It&apos;s based on <a href="http://github.hubspot.com/pace/docs/welcome">Pace</a>.</p>
+<p>You can change the theme of the progress bar easily replacing the CSS of <code>scss/components/_loading.scs</code>.</p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../dev/first-steps.html"><span class="title">First Steps</span></a></div>
+          <div class="right"><a href="../dev/build-production.html"><span class="label">Next: </span><span class="title">Build Production</span></a></div>
+        </div>
+      </div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a href="../index.html" class="link title  link-index">Basic</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Development</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a href="../dev/first-steps.html" class="link title  link-devfirst-steps">First Steps</a>
+                </li>
+                <li class="menu-item -level-2"><a href="../dev/customization.html" class="link title -active link-devcustomization">Customization</a>
+                  <ul class="headings heading-list">
+                    <li class="heading-item -depth-2"><a href="#highlight-code-support" class="hlink link-highlight-code-support">Highlight Code Support</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#google-analytics" class="hlink link-google-analytics">Google Analytics</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#comments" class="hlink link-comments">Comments</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#open-button" class="hlink link-open-button">Open Button</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#profile-title" class="hlink link-profile-title">Profile title</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#profile-subtitle" class="hlink link-profile-subtitle">Profile subtitle</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#posts-headline" class="hlink link-posts-headline">Posts Headline</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#colors" class="hlink link-colors">Colors</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#social-networks" class="hlink link-social-networks">Social Networks</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#links" class="hlink link-links">Links</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#favicon" class="hlink link-favicon">Favicon</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#cover" class="hlink link-cover">Cover</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#custom-static-pages" class="hlink link-custom-static-pages">Custom static pages</a>
+                    </li>
+                    <li class="heading-item -depth-2"><a href="#progress-bar" class="hlink link-progress-bar">Progress Bar</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item -level-2"><a href="../dev/build-production.html" class="link title  link-devbuild-production">Build Production</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/style.css?t=a44c9e9d">
+    <script src="../assets/script.js?t=2bcc4b59"></script>
+    <title>First Steps</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="body page-devfirst-steps">
+        <div class="header-nav">
+          <div class="right">
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="first-steps">First Steps</h1>
+<p>The code of the theme is divided in 3 main sections: static files (as HTML and images), CSS and JS. Check out the folders tree:</p>
+<pre><code>.
+&#x251C;&#x2500;&#x2500; LICENSE.md
+&#x251C;&#x2500;&#x2500; README.md
+&#x251C;&#x2500;&#x2500; assets
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; css
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-zen.css # the production css
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; fonts
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; img # favicons and cover image
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; js
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; src
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; __init.coffee
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; cover.coffee
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; main.coffee
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; search.coffee
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-zen.js # the production js
+&#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x251C;&#x2500;&#x2500; components # specific stuff
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _aside.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _loading.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _media-queries.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _page-error.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _pagination.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _post.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; _search.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x251C;&#x2500;&#x2500; modules # basic stuff
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _buttons.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _effects.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _fonts.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _forms.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _global.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _grid.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _mixins.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _reset.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; _variables.scss
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2514;&#x2500;&#x2500; uno.scss # main file to create the CSS
+|   &#x2514;&#x2500;&#x2500; vendor # frontend dependencies
+&#x251C;&#x2500;&#x2500; bower.json
+&#x251C;&#x2500;&#x2500; default.hbs
+&#x251C;&#x2500;&#x2500; error.hbs
+&#x251C;&#x2500;&#x2500; gulpfile.coffee
+&#x251C;&#x2500;&#x2500; index.hbs
+&#x251C;&#x2500;&#x2500; node_modules
+&#x251C;&#x2500;&#x2500; package.json
+&#x251C;&#x2500;&#x2500; partials # different partials view
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; aside.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; comments.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; footer.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; google-analytics.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; links.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; meta.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; pagination.hbs
+&#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; search.hbs
+&#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; social.hbs
+&#x251C;&#x2500;&#x2500; post.hbs
+&#x2514;&#x2500;&#x2500; tag.hbs
+</code></pre>
+<p>Putting the files in context:</p>
+<ul>
+<li>The JS inside <code>assets/js/src</code> is compiled into <code>assets/js/uno.js</code></li>
+<li>The SCSS (we use <a href="http://sass-lang.com/">SASS</a>) inside <code>assets/scss</code> is compiled into <code>assets/css/uno.css</code></li>
+<li>We have some static files like <code>post.hbs</code>, <code>tag.hbs</code>, <code>default.hbs</code>, <code>index.hbs</code>,... the partials views inside <code>assets/partials</code> is used in this views.</li>
+</ul>
+<p>For do it automatically and easily we use <a href="http://gulpjs.com/">Gulp</a>, check <code>gulpfile.coffee</code> for know how to we do it.</p>
+<p>For local development you need to have a local Ghost server running. It should look like this:</p>
+<pre><code class="lang-bash">node index.js
+Migrations: Up to date at version 003
+Ghost is running <span class="pl-k">in</span> development...
+Listening on 127.0.0.1:2387
+Url configured as: http://127.0.0.1:2387
+Ctrl+C to shut down
+</code></pre>
+<p>Note that my local Ghost is running in the port <code>2387</code>.</p>
+<p>With your local Ghost running, open another terminal and enter in the folder <code>content/themes</code> of your local Ghost and clone the theme repository and install the dependencies for local development:</p>
+<pre><code class="lang-bash">$ git <span class="pl-c1">clone</span> https://github.com/Kikobeats/uno-zen &amp;&amp; <span class="pl-c1">cd</span> uno-zen &amp;&amp; npm install &amp;&amp; bower install
+</code></pre>
+<p>Just run <code>gulp</code> command in the theme terminal. Now you have a development scenario, and looks like this:</p>
+<p><img src="http://i.imgur.com/Gf4gPR2.png" alt=""></p>
+<p>With the default <code>gulp</code> command you are automatically launching the task that will compile all assets and reload the server when those assets change. To do that, we use <a href="http://www.browsersync.io">BrowserSync</a>, which is set up as middleware between the theme and Ghost. You can connect different devices and see how the website is responsive as well.</p>
+<p>As you can see in the screenshot (top right window), BrowserSync needs to know which port to proxy, and it needs to be the same port as your Ghost server. If your Ghost server is in a different port than <code>2387</code> you need to modify <code>gulpfile.coffee</code> and add the correct port. BrowserSync should remain on 3000.</p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../index.html"><span class="title">Basic</span></a></div>
+          <div class="right"><a href="../dev/customization.html"><span class="label">Next: </span><span class="title">Customization</span></a></div>
+        </div>
+      </div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a href="../index.html" class="link title  link-index">Basic</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Development</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a href="../dev/first-steps.html" class="link title -active link-devfirst-steps">First Steps</a>
+                </li>
+                <li class="menu-item -level-2"><a href="../dev/customization.html" class="link title  link-devcustomization">Customization</a>
+                </li>
+                <li class="menu-item -level-2"><a href="../dev/build-production.html" class="link title  link-devbuild-production">Build Production</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </body>
+</html>

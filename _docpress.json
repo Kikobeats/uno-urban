@@ -1,0 +1,255 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "Basic",
+        "source": "README.md",
+        "url": "index.html",
+        "slug": "index",
+        "headings": [
+          {
+            "title": "What's new in 3.x",
+            "depth": 2,
+            "id": "what's-new-in-3.x"
+          },
+          {
+            "title": "Installation",
+            "depth": 2,
+            "id": "installation"
+          },
+          {
+            "title": "Setup",
+            "depth": 2,
+            "id": "setup"
+          }
+        ]
+      },
+      {
+        "title": "Development",
+        "sections": [
+          {
+            "title": "First Steps",
+            "source": "docs/dev/first-steps.md",
+            "url": "dev/first-steps.html",
+            "slug": "devfirst-steps"
+          },
+          {
+            "title": "Customization",
+            "source": "docs/dev/customization.md",
+            "url": "dev/customization.html",
+            "slug": "devcustomization",
+            "headings": [
+              {
+                "title": "Highlight Code Support",
+                "depth": 2,
+                "id": "highlight-code-support"
+              },
+              {
+                "title": "Google Analytics",
+                "depth": 2,
+                "id": "google-analytics"
+              },
+              {
+                "title": "Comments",
+                "depth": 2,
+                "id": "comments"
+              },
+              {
+                "title": "Open Button",
+                "depth": 2,
+                "id": "open-button"
+              },
+              {
+                "title": "Profile title",
+                "depth": 2,
+                "id": "profile-title"
+              },
+              {
+                "title": "Profile subtitle",
+                "depth": 2,
+                "id": "profile-subtitle"
+              },
+              {
+                "title": "Posts Headline",
+                "depth": 2,
+                "id": "posts-headline"
+              },
+              {
+                "title": "Colors",
+                "depth": 2,
+                "id": "colors"
+              },
+              {
+                "title": "Social Networks",
+                "depth": 2,
+                "id": "social-networks"
+              },
+              {
+                "title": "Links",
+                "depth": 2,
+                "id": "links"
+              },
+              {
+                "title": "Favicon",
+                "depth": 2,
+                "id": "favicon"
+              },
+              {
+                "title": "Cover",
+                "depth": 2,
+                "id": "cover"
+              },
+              {
+                "title": "Custom static pages",
+                "depth": 2,
+                "id": "custom-static-pages"
+              },
+              {
+                "title": "Progress Bar",
+                "depth": 2,
+                "id": "progress-bar"
+              }
+            ]
+          },
+          {
+            "title": "Build Production",
+            "source": "docs/dev/build-production.md",
+            "url": "dev/build-production.html",
+            "slug": "devbuild-production",
+            "headings": [
+              {
+                "title": "Usage with Ghost(Pro)",
+                "depth": 2,
+                "id": "usage-with-ghost(pro)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "README.md",
+      "title": "Basic",
+      "slug": "index",
+      "headings": [
+        {
+          "title": "What's new in 3.x",
+          "depth": 2,
+          "id": "what's-new-in-3.x"
+        },
+        {
+          "title": "Installation",
+          "depth": 2,
+          "id": "installation"
+        },
+        {
+          "title": "Setup",
+          "depth": 2,
+          "id": "setup"
+        }
+      ]
+    },
+    "dev/first-steps.html": {
+      "source": "docs/dev/first-steps.md",
+      "title": "First Steps",
+      "slug": "devfirst-steps"
+    },
+    "dev/customization.html": {
+      "source": "docs/dev/customization.md",
+      "title": "Customization",
+      "slug": "devcustomization",
+      "headings": [
+        {
+          "title": "Highlight Code Support",
+          "depth": 2,
+          "id": "highlight-code-support"
+        },
+        {
+          "title": "Google Analytics",
+          "depth": 2,
+          "id": "google-analytics"
+        },
+        {
+          "title": "Comments",
+          "depth": 2,
+          "id": "comments"
+        },
+        {
+          "title": "Open Button",
+          "depth": 2,
+          "id": "open-button"
+        },
+        {
+          "title": "Profile title",
+          "depth": 2,
+          "id": "profile-title"
+        },
+        {
+          "title": "Profile subtitle",
+          "depth": 2,
+          "id": "profile-subtitle"
+        },
+        {
+          "title": "Posts Headline",
+          "depth": 2,
+          "id": "posts-headline"
+        },
+        {
+          "title": "Colors",
+          "depth": 2,
+          "id": "colors"
+        },
+        {
+          "title": "Social Networks",
+          "depth": 2,
+          "id": "social-networks"
+        },
+        {
+          "title": "Links",
+          "depth": 2,
+          "id": "links"
+        },
+        {
+          "title": "Favicon",
+          "depth": 2,
+          "id": "favicon"
+        },
+        {
+          "title": "Cover",
+          "depth": 2,
+          "id": "cover"
+        },
+        {
+          "title": "Custom static pages",
+          "depth": 2,
+          "id": "custom-static-pages"
+        },
+        {
+          "title": "Progress Bar",
+          "depth": 2,
+          "id": "progress-bar"
+        }
+      ]
+    },
+    "dev/build-production.html": {
+      "source": "docs/dev/build-production.md",
+      "title": "Build Production",
+      "slug": "devbuild-production",
+      "headings": [
+        {
+          "title": "Usage with Ghost(Pro)",
+          "depth": 2,
+          "id": "usage-with-ghost(pro)"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "README.md": "index.html",
+    "docs/dev/first-steps.md": "dev/first-steps.html",
+    "docs/dev/customization.md": "dev/customization.html",
+    "docs/dev/build-production.md": "dev/build-production.html"
+  }
+}
