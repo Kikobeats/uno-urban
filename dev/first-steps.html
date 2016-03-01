@@ -16,42 +16,24 @@
           </div>
         </div>
         <div class="markdown-body"><h1 id="first-steps">First Steps</h1>
-<p>The code of the theme is divided in 3 main sections: static files (as HTML and images), CSS and JS. Check out the folders tree:</p>
+<p>The code of the theme is divided in 3 main sections: static files (as HTML and images), CSS and JS:</p>
 <pre><code>.
 &#x251C;&#x2500;&#x2500; LICENSE.md
 &#x251C;&#x2500;&#x2500; README.md
 &#x251C;&#x2500;&#x2500; assets
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; css
-&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-zen.css # the production css
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-urban.css # the production css
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; fonts
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; img # favicons and cover image
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; js
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; src
-&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; __init.coffee
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; __init.coffee # main js file
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; cover.coffee
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; main.coffee
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; search.coffee
-&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-zen.js # the production js
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-urban.js # the production js
 &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x251C;&#x2500;&#x2500; components # specific stuff
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _aside.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _loading.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _media-queries.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _page-error.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _pagination.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _post.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; _search.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x251C;&#x2500;&#x2500; modules # basic stuff
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _buttons.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _effects.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _fonts.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _forms.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _global.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _grid.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _mixins.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; _reset.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; _variables.scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2514;&#x2500;&#x2500; uno.scss # main file to create the CSS
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2514;&#x2500;&#x2500; uno.scss # main css file
 |   &#x2514;&#x2500;&#x2500; vendor # frontend dependencies
 &#x251C;&#x2500;&#x2500; bower.json
 &#x251C;&#x2500;&#x2500; default.hbs
@@ -89,13 +71,18 @@ Url configured as: http://127.0.0.1:2387
 Ctrl+C to shut down
 </code></pre>
 <p>Note that my local Ghost is running in the port <code>2387</code>.</p>
-<p>With your local Ghost running, open another terminal and enter in the folder <code>content/themes</code> of your local Ghost and clone the theme repository and install the dependencies for local development:</p>
-<pre><code class="lang-bash">$ git <span class="pl-c1">clone</span> https://github.com/Kikobeats/uno-zen &amp;&amp; <span class="pl-c1">cd</span> uno-zen &amp;&amp; npm install &amp;&amp; bower install
+<p>With your local Ghost running, open another terminal and enter in the folder <code>content/themes</code> of your local Ghost and unzip your Ghost Urban installation under the theme folder.</p>
+<p>After that just enter in the folder and install the NPM and Bower dependencies:</p>
+<pre><code class="lang-bash">$ <span class="pl-c1">cd</span> uno-urban &amp;&amp; npm install &amp;&amp; bower install
 </code></pre>
-<p>Just run <code>gulp</code> command in the theme terminal. Now you have a development scenario, and looks like this:</p>
+<p>Now run the command <code>gulp</code> to start your local development with livereload in your browser!</p>
+<p>You can organize your local development like this picture:</p>
 <p><img src="http://i.imgur.com/Gf4gPR2.png" alt=""></p>
-<p>With the default <code>gulp</code> command you are automatically launching the task that will compile all assets and reload the server when those assets change. To do that, we use <a href="http://www.browsersync.io">BrowserSync</a>, which is set up as middleware between the theme and Ghost. You can connect different devices and see how the website is responsive as well.</p>
-<p>As you can see in the screenshot (top right window), BrowserSync needs to know which port to proxy, and it needs to be the same port as your Ghost server. If your Ghost server is in a different port than <code>2387</code> you need to modify <code>gulpfile.coffee</code> and add the correct port. BrowserSync should remain on 3000.</p>
+<p>With the default <code>gulp</code> command you are automatically launching the task that will compile all assets and reload the server when those assets change.</p>
+<p>To do that, we use <a href="http://www.browsersync.io">BrowserSync</a>, which is set up as middleware between the theme and Ghost.</p>
+<p>You can connect different devices and see how the website is responsive as well.</p>
+<p><strong>NOTE</strong>: As you can see in the screenshot (top right window), BrowserSync needs to know which port to proxy, and it needs to be the same port as your Ghost server.</p>
+<p>If your Ghost server runs in a different port than <code>2387</code> you need to modify <code>gulpfile.coffee</code> and add the correct port. BrowserSync should remain on <code>3000</code>.</p>
 
         </div>
         <div class="footer-nav">

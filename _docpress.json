@@ -13,11 +13,6 @@
             "id": "what's-new-in-3.x"
           },
           {
-            "title": "Installation",
-            "depth": 2,
-            "id": "installation"
-          },
-          {
             "title": "Setup",
             "depth": 2,
             "id": "setup"
@@ -40,9 +35,9 @@
             "slug": "devcustomization",
             "headings": [
               {
-                "title": "Highlight Code Support",
+                "title": "Highlight Code",
                 "depth": 2,
-                "id": "highlight-code-support"
+                "id": "highlight-code"
               },
               {
                 "title": "Google Analytics",
@@ -140,11 +135,6 @@
           "id": "what's-new-in-3.x"
         },
         {
-          "title": "Installation",
-          "depth": 2,
-          "id": "installation"
-        },
-        {
           "title": "Setup",
           "depth": 2,
           "id": "setup"
@@ -162,9 +152,9 @@
       "slug": "devcustomization",
       "headings": [
         {
-          "title": "Highlight Code Support",
+          "title": "Highlight Code",
           "depth": 2,
-          "id": "highlight-code-support"
+          "id": "highlight-code"
         },
         {
           "title": "Google Analytics",
