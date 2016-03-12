@@ -120,6 +120,12 @@
             ]
           }
         ]
+      },
+      {
+        "title": "Tech Support",
+        "source": "docs/dev/tech-support.md",
+        "url": "dev/tech-support.html",
+        "slug": "devtech-support"
       }
     ]
   },
@@ -234,12 +240,18 @@
           "id": "usage-with-ghost(pro)"
         }
       ]
+    },
+    "dev/tech-support.html": {
+      "source": "docs/dev/tech-support.md",
+      "title": "Tech Support",
+      "slug": "devtech-support"
     }
   },
   "sources": {
     "README.md": "index.html",
     "docs/dev/first-steps.md": "dev/first-steps.html",
     "docs/dev/customization.md": "dev/customization.html",
-    "docs/dev/build-production.md": "dev/build-production.html"
+    "docs/dev/build-production.md": "dev/build-production.html",
+    "docs/dev/tech-support.md": "dev/tech-support.html"
   }
 }
