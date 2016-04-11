@@ -1,4 +1,4 @@
-# Lee Urban for Ghost
+# Yang for Ghost
 
 [<img src="https://i.imgur.com/AtTXdHk.jpg">](https://sellfy.com/p/G5kK)
 
