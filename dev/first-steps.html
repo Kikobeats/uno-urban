@@ -22,7 +22,7 @@
 &#x251C;&#x2500;&#x2500; README.md
 &#x251C;&#x2500;&#x2500; assets
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; css
-&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; yang.css # the production css
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-urban.css # the production css
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; fonts
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; img # favicons and cover image
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; js
@@ -31,9 +31,9 @@
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; cover.coffee
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; main.coffee
 &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; search.coffee
-&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; yang.js # the production js
+&#x2502;&#xA0;&#xA0; &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; uno-urban.js # the production js
 &#x2502;&#xA0;&#xA0; &#x2514;&#x2500;&#x2500; scss
-&#x2502;&#xA0;&#xA0; &#x2502;   &#x2514;&#x2500;&#x2500; yang.scss # main css file
+&#x2502;&#xA0;&#xA0; &#x2502;   &#x2514;&#x2500;&#x2500; uno.scss # main css file
 |   &#x2514;&#x2500;&#x2500; vendor # frontend dependencies
 &#x251C;&#x2500;&#x2500; bower.json
 &#x251C;&#x2500;&#x2500; default.hbs
@@ -57,8 +57,8 @@
 </code></pre>
 <p>Putting the files in context:</p>
 <ul>
-<li>The JS inside <code>assets/js/src</code> is compiled into <code>assets/js/yang.js</code></li>
-<li>The SCSS (we use <a href="http://sass-lang.com/">SASS</a>) inside <code>assets/scss</code> is compiled into <code>assets/css/yang.css</code></li>
+<li>The JS inside <code>assets/js/src</code> is compiled into <code>assets/js/uno.js</code></li>
+<li>The SCSS (we use <a href="http://sass-lang.com/">SASS</a>) inside <code>assets/scss</code> is compiled into <code>assets/css/uno.css</code></li>
 <li>We have some static files like <code>post.hbs</code>, <code>tag.hbs</code>, <code>default.hbs</code>, <code>index.hbs</code>,... the partials views inside <code>assets/partials</code> is used in this views.</li>
 </ul>
 <p>For do it automatically and easily we use <a href="http://gulpjs.com/">Gulp</a>, check <code>gulpfile.coffee</code> for know how to we do it.</p>
@@ -73,7 +73,7 @@ Ctrl+C to shut down
 <p>Note that my local Ghost is running in the port <code>2387</code>.</p>
 <p>With your local Ghost running, open another terminal and enter in the folder <code>content/themes</code> of your local Ghost and unzip your Ghost Urban installation under the theme folder.</p>
 <p>After that just enter in the folder and install the NPM and Bower dependencies:</p>
-<pre><code class="lang-bash">$ <span class="pl-c1">cd</span> yang &amp;&amp; npm install &amp;&amp; bower install
+<pre><code class="lang-bash">$ <span class="pl-c1">cd</span> uno-urban &amp;&amp; npm install &amp;&amp; bower install
 </code></pre>
 <p>Now run the command <code>gulp</code> to start your local development with livereload in your browser!</p>
 <p>You can organize your local development like this picture:</p>
@@ -86,14 +86,14 @@ Ctrl+C to shut down
 
         </div>
         <div class="footer-nav">
-          <div class="left"><a href="../index.html"><span class="title">Yang</span></a></div>
+          <div class="left"><a href="../index.html"><span class="title">Uno Urban</span></a></div>
           <div class="right"><a href="../dev/customization.html"><span class="label">Next: </span><span class="title">Customization</span></a></div>
         </div>
       </div>
       <div class="menu toc-menu">
         <li class="menu-item -level-0 -parent">
           <ul class="submenu">
-            <li class="menu-item -level-1"><a href="../index.html" class="link title  link-index">Yang</a>
+            <li class="menu-item -level-1"><a href="../index.html" class="link title  link-index">Uno Urban</a>
             </li>
             <li class="menu-item -level-1 -parent"><span class="title">Development</span>
               <ul class="submenu">
