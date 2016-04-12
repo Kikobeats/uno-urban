@@ -1,4 +1,4 @@
-# Yang for Ghost
+# Uno Urban for Ghost
 
 [<img src="https://i.imgur.com/AtTXdHk.jpg">](https://sellfy.com/p/G5kK)
 
