@@ -4,4 +4,4 @@
 
 > Customers place for questions and reports issues. [Buy it](https://sellfy.com/p/G5kK)!.
 
-[[Online Documentation](https://kikobeats.github.io/uno-urban/)] [[Issues trackers](https://github.com/Kikobeats/uno-urban/issues)]
+[[Online Documentation](https://kikobeats.github.io/uno-urban)] [[Issues trackers](https://github.com/Kikobeats/uno-urban/issues)]
