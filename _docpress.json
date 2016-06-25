@@ -20,102 +20,490 @@
         ]
       },
       {
+        "title": "Changelog",
+        "source": "CHANGELOG.md",
+        "url": "CHANGELOG.html",
+        "slug": "changelog",
+        "headings": [
+          {
+            "title": "3.2.3 (2016-06-05)",
+            "depth": 2,
+            "id": "3.2.3-(2016-06-05)"
+          },
+          {
+            "title": "3.2.2 (2016-05-25)",
+            "depth": 2,
+            "id": "3.2.2-(2016-05-25)"
+          },
+          {
+            "title": "3.2.1 (2016-05-13)",
+            "depth": 2,
+            "id": "3.2.1-(2016-05-13)"
+          },
+          {
+            "title": "3.1.8 (2016-04-12)",
+            "depth": 2,
+            "id": "3.1.8-(2016-04-12)"
+          },
+          {
+            "title": "3.1.7 (2016-03-20)",
+            "depth": 2,
+            "id": "3.1.7-(2016-03-20)"
+          },
+          {
+            "title": "3.1.6 (2016-03-15)",
+            "depth": 2,
+            "id": "3.1.6-(2016-03-15)"
+          },
+          {
+            "title": "3.1.5 (2016-03-12)",
+            "depth": 2,
+            "id": "3.1.5-(2016-03-12)"
+          },
+          {
+            "title": "3.1.4 (2016-03-11)",
+            "depth": 2,
+            "id": "3.1.4-(2016-03-11)"
+          },
+          {
+            "title": "3.1.3 (2016-03-06)",
+            "depth": 2,
+            "id": "3.1.3-(2016-03-06)"
+          },
+          {
+            "title": "3.1.2 (2016-03-05)",
+            "depth": 2,
+            "id": "3.1.2-(2016-03-05)"
+          },
+          {
+            "title": "3.1.1 (2016-03-02)",
+            "depth": 2,
+            "id": "3.1.1-(2016-03-02)"
+          },
+          {
+            "title": "3.0.2 (2016-02-28)",
+            "depth": 2,
+            "id": "3.0.2-(2016-02-28)"
+          },
+          {
+            "title": "3.0.1 (2016-02-27)",
+            "depth": 2,
+            "id": "3.0.1-(2016-02-27)"
+          },
+          {
+            "title": "3.1.2-beta.0 (2016-02-27)",
+            "depth": 2,
+            "id": "3.1.2-beta.0-(2016-02-27)"
+          },
+          {
+            "title": "3.1.1-beta.0 (2016-02-27)",
+            "depth": 2,
+            "id": "3.1.1-beta.0-(2016-02-27)"
+          },
+          {
+            "title": "3.0.6-beta.0 (2016-02-26)",
+            "depth": 2,
+            "id": "3.0.6-beta.0-(2016-02-26)"
+          },
+          {
+            "title": "3.0.5-beta.0 (2016-02-26)",
+            "depth": 2,
+            "id": "3.0.5-beta.0-(2016-02-26)"
+          },
+          {
+            "title": "3.0.4-beta.0 (2016-02-26)",
+            "depth": 2,
+            "id": "3.0.4-beta.0-(2016-02-26)"
+          },
+          {
+            "title": "3.0.3-beta.0 (2016-02-25)",
+            "depth": 2,
+            "id": "3.0.3-beta.0-(2016-02-25)"
+          },
+          {
+            "title": "3.0.2-beta.0 (2016-02-24)",
+            "depth": 2,
+            "id": "3.0.2-beta.0-(2016-02-24)"
+          },
+          {
+            "title": "3.0.1-beta.0 (2016-02-24)",
+            "depth": 2,
+            "id": "3.0.1-beta.0-(2016-02-24)"
+          },
+          {
+            "title": "2.7.3 (2016-02-02)",
+            "depth": 2,
+            "id": "2.7.3-(2016-02-02)"
+          },
+          {
+            "title": "2.7.2 (2016-01-19)",
+            "depth": 2,
+            "id": "2.7.2-(2016-01-19)"
+          },
+          {
+            "title": "2.7.1 (2016-01-19)",
+            "depth": 2,
+            "id": "2.7.1-(2016-01-19)"
+          },
+          {
+            "title": "2.6.10 (2016-01-06)",
+            "depth": 2,
+            "id": "2.6.10-(2016-01-06)"
+          },
+          {
+            "title": "2.6.9 (2015-12-31)",
+            "depth": 2,
+            "id": "2.6.9-(2015-12-31)"
+          },
+          {
+            "title": "2.6.8 (2015-12-30)",
+            "depth": 2,
+            "id": "2.6.8-(2015-12-30)"
+          },
+          {
+            "title": "2.6.7 (2015-12-28)",
+            "depth": 2,
+            "id": "2.6.7-(2015-12-28)"
+          },
+          {
+            "title": "2.6.6 (2015-12-26)",
+            "depth": 2,
+            "id": "2.6.6-(2015-12-26)"
+          },
+          {
+            "title": "2.6.5 (2015-12-22)",
+            "depth": 2,
+            "id": "2.6.5-(2015-12-22)"
+          },
+          {
+            "title": "2.6.4 (2015-12-16)",
+            "depth": 2,
+            "id": "2.6.4-(2015-12-16)"
+          },
+          {
+            "title": "2.6.3 (2015-12-13)",
+            "depth": 2,
+            "id": "2.6.3-(2015-12-13)"
+          },
+          {
+            "title": "2.6.2 (2015-12-10)",
+            "depth": 2,
+            "id": "2.6.2-(2015-12-10)"
+          },
+          {
+            "title": "2.6.1 (2015-12-04)",
+            "depth": 2,
+            "id": "2.6.1-(2015-12-04)"
+          },
+          {
+            "title": "2.5.7 (2015-10-11)",
+            "depth": 2,
+            "id": "2.5.7-(2015-10-11)"
+          },
+          {
+            "title": "2.5.6 (2015-10-08)",
+            "depth": 2,
+            "id": "2.5.6-(2015-10-08)"
+          },
+          {
+            "title": "2.5.5 (2015-10-04)",
+            "depth": 2,
+            "id": "2.5.5-(2015-10-04)"
+          },
+          {
+            "title": "2.5.4 (2015-09-24)",
+            "depth": 2,
+            "id": "2.5.4-(2015-09-24)"
+          },
+          {
+            "title": "2.5.3 (2015-09-18)",
+            "depth": 2,
+            "id": "2.5.3-(2015-09-18)"
+          },
+          {
+            "title": "2.5.2 (2015-09-11)",
+            "depth": 2,
+            "id": "2.5.2-(2015-09-11)"
+          },
+          {
+            "title": "2.5.1 (2015-09-09)",
+            "depth": 2,
+            "id": "2.5.1-(2015-09-09)"
+          },
+          {
+            "title": "2.3.5 (2015-08-24)",
+            "depth": 2,
+            "id": "2.3.5-(2015-08-24)"
+          },
+          {
+            "title": "2.3.4 (2015-08-15)",
+            "depth": 2,
+            "id": "2.3.4-(2015-08-15)"
+          },
+          {
+            "title": "2.3.3 (2015-08-14)",
+            "depth": 2,
+            "id": "2.3.3-(2015-08-14)"
+          },
+          {
+            "title": "2.3.2 (2015-08-14)",
+            "depth": 2,
+            "id": "2.3.2-(2015-08-14)"
+          },
+          {
+            "title": "2.3.1 (2015-08-12)",
+            "depth": 2,
+            "id": "2.3.1-(2015-08-12)"
+          },
+          {
+            "title": "2.2.7 (2015-08-07)",
+            "depth": 2,
+            "id": "2.2.7-(2015-08-07)"
+          },
+          {
+            "title": "2.2.6 (2015-08-07)",
+            "depth": 2,
+            "id": "2.2.6-(2015-08-07)"
+          },
+          {
+            "title": "2.2.5 (2015-08-02)",
+            "depth": 2,
+            "id": "2.2.5-(2015-08-02)"
+          },
+          {
+            "title": "2.2.4 (2015-07-24)",
+            "depth": 2,
+            "id": "2.2.4-(2015-07-24)"
+          },
+          {
+            "title": "2.2.3 (2015-06-19)",
+            "depth": 2,
+            "id": "2.2.3-(2015-06-19)"
+          },
+          {
+            "title": "2.2.2 (2015-06-12)",
+            "depth": 2,
+            "id": "2.2.2-(2015-06-12)"
+          },
+          {
+            "title": "2.2.1 (2015-05-17)",
+            "depth": 2,
+            "id": "2.2.1-(2015-05-17)"
+          },
+          {
+            "title": "2.1.3 (2015-04-10)",
+            "depth": 2,
+            "id": "2.1.3-(2015-04-10)"
+          },
+          {
+            "title": "2.1.2 (2015-04-02)",
+            "depth": 2,
+            "id": "2.1.2-(2015-04-02)"
+          },
+          {
+            "title": "2.1.1 (2015-03-20)",
+            "depth": 2,
+            "id": "2.1.1-(2015-03-20)"
+          },
+          {
+            "title": "2.0.3 (2015-03-08)",
+            "depth": 2,
+            "id": "2.0.3-(2015-03-08)"
+          },
+          {
+            "title": "2.0.2 (2015-02-27)",
+            "depth": 2,
+            "id": "2.0.2-(2015-02-27)"
+          },
+          {
+            "title": "2.0.1 (2015-02-26)",
+            "depth": 2,
+            "id": "2.0.1-(2015-02-26)"
+          },
+          {
+            "title": "1.3.2 (2015-02-15)",
+            "depth": 2,
+            "id": "1.3.2-(2015-02-15)"
+          },
+          {
+            "title": "1.3.1 (2015-02-15)",
+            "depth": 2,
+            "id": "1.3.1-(2015-02-15)"
+          },
+          {
+            "title": "1.2.2 (2015-02-15)",
+            "depth": 2,
+            "id": "1.2.2-(2015-02-15)"
+          },
+          {
+            "title": "1.2.1 (2015-02-14)",
+            "depth": 2,
+            "id": "1.2.1-(2015-02-14)"
+          },
+          {
+            "title": "1.1.24 (2015-01-24)",
+            "depth": 2,
+            "id": "1.1.24-(2015-01-24)"
+          },
+          {
+            "title": "1.1.18 (2015-01-18)",
+            "depth": 2,
+            "id": "1.1.18-(2015-01-18)"
+          },
+          {
+            "title": "1.1.11 (2015-01-10)",
+            "depth": 2,
+            "id": "1.1.11-(2015-01-10)"
+          },
+          {
+            "title": "1.1.8 (2015-01-08)",
+            "depth": 2,
+            "id": "1.1.8-(2015-01-08)"
+          },
+          {
+            "title": "1.1.5 (2015-01-05)",
+            "depth": 2,
+            "id": "1.1.5-(2015-01-05)"
+          }
+        ]
+      },
+      {
         "title": "Development",
         "sections": [
           {
             "title": "First Steps",
-            "source": "docs/dev/first-steps.md",
-            "url": "dev/first-steps.html",
-            "slug": "devfirst-steps"
+            "source": "docs/first-steps.md",
+            "url": "first-steps.html",
+            "slug": "first-steps"
           },
           {
             "title": "Customization",
-            "source": "docs/dev/customization.md",
-            "url": "dev/customization.html",
-            "slug": "devcustomization",
-            "headings": [
+            "sections": [
               {
-                "title": "Highlight Code",
-                "depth": 2,
-                "id": "highlight-code"
-              },
-              {
-                "title": "Google Analytics",
-                "depth": 2,
-                "id": "google-analytics"
-              },
-              {
-                "title": "Comments",
-                "depth": 2,
-                "id": "comments"
-              },
-              {
-                "title": "Open Button",
-                "depth": 2,
-                "id": "open-button"
-              },
-              {
-                "title": "Profile title",
-                "depth": 2,
-                "id": "profile-title"
-              },
-              {
-                "title": "Profile subtitle",
-                "depth": 2,
-                "id": "profile-subtitle"
-              },
-              {
-                "title": "Posts Headline",
-                "depth": 2,
-                "id": "posts-headline"
+                "title": "General"
               },
               {
                 "title": "Colors",
-                "depth": 2,
-                "id": "colors"
-              },
-              {
-                "title": "Social Networks",
-                "depth": 2,
-                "id": "social-networks"
-              },
-              {
-                "title": "Links",
-                "depth": 2,
-                "id": "links"
-              },
-              {
-                "title": "Favicon",
-                "depth": 2,
-                "id": "favicon"
+                "source": "docs/customization/colors.md",
+                "url": "customization/colors.html",
+                "slug": "customizationcolors"
               },
               {
                 "title": "Cover",
-                "depth": 2,
-                "id": "cover"
+                "source": "docs/customization/cover.md",
+                "url": "customization/cover.html",
+                "slug": "customizationcover"
               },
               {
-                "title": "Custom static pages",
-                "depth": 2,
-                "id": "custom-static-pages"
+                "title": "Favicon",
+                "source": "docs/customization/favicon.md",
+                "url": "customization/favicon.html",
+                "slug": "customizationfavicon"
               },
               {
-                "title": "Progress Bar",
-                "depth": 2,
-                "id": "progress-bar"
-              }
-            ]
-          },
-          {
-            "title": "Build Production",
-            "source": "docs/dev/build-production.md",
-            "url": "dev/build-production.html",
-            "slug": "devbuild-production",
-            "headings": [
+                "title": "Google Analytics",
+                "source": "docs/customization/google-analytics.md",
+                "url": "customization/google-analytics.html",
+                "slug": "customizationgoogle-analytics"
+              },
               {
-                "title": "Usage with Ghost(Pro)",
-                "depth": 2,
-                "id": "usage-with-ghost(pro)"
+                "title": "Post"
+              },
+              {
+                "title": "Comments",
+                "source": "docs/customization/comments.md",
+                "url": "customization/comments.html",
+                "slug": "customizationcomments"
+              },
+              {
+                "title": "Highlight Code",
+                "source": "docs/customization/highlight-code.md",
+                "url": "customization/highlight-code.html",
+                "slug": "customizationhighlight-code"
+              },
+              {
+                "title": "Static Pages",
+                "source": "docs/customization/static-pages.md",
+                "url": "customization/static-pages.html",
+                "slug": "customizationstatic-pages"
+              },
+              {
+                "title": "Index"
+              },
+              {
+                "title": "Posts Headline",
+                "source": "docs/customization/posts-headline.md",
+                "url": "customization/posts-headline.html",
+                "slug": "customizationposts-headline"
+              },
+              {
+                "title": "Infinite Scroll",
+                "source": "docs/customization/infinite-scroll.md",
+                "url": "customization/infinite-scroll.html",
+                "slug": "customizationinfinite-scroll"
+              },
+              {
+                "title": "Search Engine",
+                "source": "docs/customization/search-engine/README.md",
+                "url": "customization/search-engine/index.html",
+                "slug": "customizationsearch-engine",
+                "headings": [
+                  {
+                    "title": "Creating the blog index",
+                    "depth": 2,
+                    "id": "creating-the-blog-index"
+                  },
+                  {
+                    "title": "Connecting with your blog content",
+                    "depth": 2,
+                    "id": "connecting-with-your-blog-content"
+                  },
+                  {
+                    "title": "Sitemap",
+                    "depth": 2,
+                    "id": "sitemap"
+                  },
+                  {
+                    "title": "Default Values",
+                    "depth": 2,
+                    "id": "default-values"
+                  }
+                ]
+              },
+              {
+                "title": "Sidebar",
+                "sections": [
+                  {
+                    "title": "Profile Subtitle",
+                    "source": "docs/customization/profile-subtitle.md",
+                    "url": "customization/profile-subtitle.html",
+                    "slug": "customizationprofile-subtitle"
+                  },
+                  {
+                    "title": "Profile Title",
+                    "source": "docs/customization/profile-subtitle.md",
+                    "url": "customization/profile-subtitle.html",
+                    "slug": "customizationprofile-subtitle-2"
+                  },
+                  {
+                    "title": "Social Networks",
+                    "source": "docs/customization/social-networks.md",
+                    "url": "customization/social-networks.html",
+                    "slug": "customizationsocial-networks"
+                  },
+                  {
+                    "title": "Open Button",
+                    "source": "docs/customization/open-button.md",
+                    "url": "customization/open-button.html",
+                    "slug": "customizationopen-button"
+                  },
+                  {
+                    "title": "Links",
+                    "source": "docs/customization/links.md",
+                    "url": "customization/links.html",
+                    "slug": "customizationlinks"
+                  }
+                ]
               }
             ]
           }
@@ -123,9 +511,9 @@
       },
       {
         "title": "Tech Support",
-        "source": "docs/dev/tech-support.md",
-        "url": "dev/tech-support.html",
-        "slug": "devtech-support"
+        "source": "docs/tech-support.md",
+        "url": "tech-support.html",
+        "slug": "tech-support"
       }
     ]
   },
@@ -147,111 +535,477 @@
         }
       ]
     },
-    "dev/first-steps.html": {
-      "source": "docs/dev/first-steps.md",
+    "CHANGELOG.html": {
+      "source": "CHANGELOG.md",
+      "title": "Changelog",
+      "slug": "changelog",
+      "headings": [
+        {
+          "title": "3.2.3 (2016-06-05)",
+          "depth": 2,
+          "id": "3.2.3-(2016-06-05)"
+        },
+        {
+          "title": "3.2.2 (2016-05-25)",
+          "depth": 2,
+          "id": "3.2.2-(2016-05-25)"
+        },
+        {
+          "title": "3.2.1 (2016-05-13)",
+          "depth": 2,
+          "id": "3.2.1-(2016-05-13)"
+        },
+        {
+          "title": "3.1.8 (2016-04-12)",
+          "depth": 2,
+          "id": "3.1.8-(2016-04-12)"
+        },
+        {
+          "title": "3.1.7 (2016-03-20)",
+          "depth": 2,
+          "id": "3.1.7-(2016-03-20)"
+        },
+        {
+          "title": "3.1.6 (2016-03-15)",
+          "depth": 2,
+          "id": "3.1.6-(2016-03-15)"
+        },
+        {
+          "title": "3.1.5 (2016-03-12)",
+          "depth": 2,
+          "id": "3.1.5-(2016-03-12)"
+        },
+        {
+          "title": "3.1.4 (2016-03-11)",
+          "depth": 2,
+          "id": "3.1.4-(2016-03-11)"
+        },
+        {
+          "title": "3.1.3 (2016-03-06)",
+          "depth": 2,
+          "id": "3.1.3-(2016-03-06)"
+        },
+        {
+          "title": "3.1.2 (2016-03-05)",
+          "depth": 2,
+          "id": "3.1.2-(2016-03-05)"
+        },
+        {
+          "title": "3.1.1 (2016-03-02)",
+          "depth": 2,
+          "id": "3.1.1-(2016-03-02)"
+        },
+        {
+          "title": "3.0.2 (2016-02-28)",
+          "depth": 2,
+          "id": "3.0.2-(2016-02-28)"
+        },
+        {
+          "title": "3.0.1 (2016-02-27)",
+          "depth": 2,
+          "id": "3.0.1-(2016-02-27)"
+        },
+        {
+          "title": "3.1.2-beta.0 (2016-02-27)",
+          "depth": 2,
+          "id": "3.1.2-beta.0-(2016-02-27)"
+        },
+        {
+          "title": "3.1.1-beta.0 (2016-02-27)",
+          "depth": 2,
+          "id": "3.1.1-beta.0-(2016-02-27)"
+        },
+        {
+          "title": "3.0.6-beta.0 (2016-02-26)",
+          "depth": 2,
+          "id": "3.0.6-beta.0-(2016-02-26)"
+        },
+        {
+          "title": "3.0.5-beta.0 (2016-02-26)",
+          "depth": 2,
+          "id": "3.0.5-beta.0-(2016-02-26)"
+        },
+        {
+          "title": "3.0.4-beta.0 (2016-02-26)",
+          "depth": 2,
+          "id": "3.0.4-beta.0-(2016-02-26)"
+        },
+        {
+          "title": "3.0.3-beta.0 (2016-02-25)",
+          "depth": 2,
+          "id": "3.0.3-beta.0-(2016-02-25)"
+        },
+        {
+          "title": "3.0.2-beta.0 (2016-02-24)",
+          "depth": 2,
+          "id": "3.0.2-beta.0-(2016-02-24)"
+        },
+        {
+          "title": "3.0.1-beta.0 (2016-02-24)",
+          "depth": 2,
+          "id": "3.0.1-beta.0-(2016-02-24)"
+        },
+        {
+          "title": "2.7.3 (2016-02-02)",
+          "depth": 2,
+          "id": "2.7.3-(2016-02-02)"
+        },
+        {
+          "title": "2.7.2 (2016-01-19)",
+          "depth": 2,
+          "id": "2.7.2-(2016-01-19)"
+        },
+        {
+          "title": "2.7.1 (2016-01-19)",
+          "depth": 2,
+          "id": "2.7.1-(2016-01-19)"
+        },
+        {
+          "title": "2.6.10 (2016-01-06)",
+          "depth": 2,
+          "id": "2.6.10-(2016-01-06)"
+        },
+        {
+          "title": "2.6.9 (2015-12-31)",
+          "depth": 2,
+          "id": "2.6.9-(2015-12-31)"
+        },
+        {
+          "title": "2.6.8 (2015-12-30)",
+          "depth": 2,
+          "id": "2.6.8-(2015-12-30)"
+        },
+        {
+          "title": "2.6.7 (2015-12-28)",
+          "depth": 2,
+          "id": "2.6.7-(2015-12-28)"
+        },
+        {
+          "title": "2.6.6 (2015-12-26)",
+          "depth": 2,
+          "id": "2.6.6-(2015-12-26)"
+        },
+        {
+          "title": "2.6.5 (2015-12-22)",
+          "depth": 2,
+          "id": "2.6.5-(2015-12-22)"
+        },
+        {
+          "title": "2.6.4 (2015-12-16)",
+          "depth": 2,
+          "id": "2.6.4-(2015-12-16)"
+        },
+        {
+          "title": "2.6.3 (2015-12-13)",
+          "depth": 2,
+          "id": "2.6.3-(2015-12-13)"
+        },
+        {
+          "title": "2.6.2 (2015-12-10)",
+          "depth": 2,
+          "id": "2.6.2-(2015-12-10)"
+        },
+        {
+          "title": "2.6.1 (2015-12-04)",
+          "depth": 2,
+          "id": "2.6.1-(2015-12-04)"
+        },
+        {
+          "title": "2.5.7 (2015-10-11)",
+          "depth": 2,
+          "id": "2.5.7-(2015-10-11)"
+        },
+        {
+          "title": "2.5.6 (2015-10-08)",
+          "depth": 2,
+          "id": "2.5.6-(2015-10-08)"
+        },
+        {
+          "title": "2.5.5 (2015-10-04)",
+          "depth": 2,
+          "id": "2.5.5-(2015-10-04)"
+        },
+        {
+          "title": "2.5.4 (2015-09-24)",
+          "depth": 2,
+          "id": "2.5.4-(2015-09-24)"
+        },
+        {
+          "title": "2.5.3 (2015-09-18)",
+          "depth": 2,
+          "id": "2.5.3-(2015-09-18)"
+        },
+        {
+          "title": "2.5.2 (2015-09-11)",
+          "depth": 2,
+          "id": "2.5.2-(2015-09-11)"
+        },
+        {
+          "title": "2.5.1 (2015-09-09)",
+          "depth": 2,
+          "id": "2.5.1-(2015-09-09)"
+        },
+        {
+          "title": "2.3.5 (2015-08-24)",
+          "depth": 2,
+          "id": "2.3.5-(2015-08-24)"
+        },
+        {
+          "title": "2.3.4 (2015-08-15)",
+          "depth": 2,
+          "id": "2.3.4-(2015-08-15)"
+        },
+        {
+          "title": "2.3.3 (2015-08-14)",
+          "depth": 2,
+          "id": "2.3.3-(2015-08-14)"
+        },
+        {
+          "title": "2.3.2 (2015-08-14)",
+          "depth": 2,
+          "id": "2.3.2-(2015-08-14)"
+        },
+        {
+          "title": "2.3.1 (2015-08-12)",
+          "depth": 2,
+          "id": "2.3.1-(2015-08-12)"
+        },
+        {
+          "title": "2.2.7 (2015-08-07)",
+          "depth": 2,
+          "id": "2.2.7-(2015-08-07)"
+        },
+        {
+          "title": "2.2.6 (2015-08-07)",
+          "depth": 2,
+          "id": "2.2.6-(2015-08-07)"
+        },
+        {
+          "title": "2.2.5 (2015-08-02)",
+          "depth": 2,
+          "id": "2.2.5-(2015-08-02)"
+        },
+        {
+          "title": "2.2.4 (2015-07-24)",
+          "depth": 2,
+          "id": "2.2.4-(2015-07-24)"
+        },
+        {
+          "title": "2.2.3 (2015-06-19)",
+          "depth": 2,
+          "id": "2.2.3-(2015-06-19)"
+        },
+        {
+          "title": "2.2.2 (2015-06-12)",
+          "depth": 2,
+          "id": "2.2.2-(2015-06-12)"
+        },
+        {
+          "title": "2.2.1 (2015-05-17)",
+          "depth": 2,
+          "id": "2.2.1-(2015-05-17)"
+        },
+        {
+          "title": "2.1.3 (2015-04-10)",
+          "depth": 2,
+          "id": "2.1.3-(2015-04-10)"
+        },
+        {
+          "title": "2.1.2 (2015-04-02)",
+          "depth": 2,
+          "id": "2.1.2-(2015-04-02)"
+        },
+        {
+          "title": "2.1.1 (2015-03-20)",
+          "depth": 2,
+          "id": "2.1.1-(2015-03-20)"
+        },
+        {
+          "title": "2.0.3 (2015-03-08)",
+          "depth": 2,
+          "id": "2.0.3-(2015-03-08)"
+        },
+        {
+          "title": "2.0.2 (2015-02-27)",
+          "depth": 2,
+          "id": "2.0.2-(2015-02-27)"
+        },
+        {
+          "title": "2.0.1 (2015-02-26)",
+          "depth": 2,
+          "id": "2.0.1-(2015-02-26)"
+        },
+        {
+          "title": "1.3.2 (2015-02-15)",
+          "depth": 2,
+          "id": "1.3.2-(2015-02-15)"
+        },
+        {
+          "title": "1.3.1 (2015-02-15)",
+          "depth": 2,
+          "id": "1.3.1-(2015-02-15)"
+        },
+        {
+          "title": "1.2.2 (2015-02-15)",
+          "depth": 2,
+          "id": "1.2.2-(2015-02-15)"
+        },
+        {
+          "title": "1.2.1 (2015-02-14)",
+          "depth": 2,
+          "id": "1.2.1-(2015-02-14)"
+        },
+        {
+          "title": "1.1.24 (2015-01-24)",
+          "depth": 2,
+          "id": "1.1.24-(2015-01-24)"
+        },
+        {
+          "title": "1.1.18 (2015-01-18)",
+          "depth": 2,
+          "id": "1.1.18-(2015-01-18)"
+        },
+        {
+          "title": "1.1.11 (2015-01-10)",
+          "depth": 2,
+          "id": "1.1.11-(2015-01-10)"
+        },
+        {
+          "title": "1.1.8 (2015-01-08)",
+          "depth": 2,
+          "id": "1.1.8-(2015-01-08)"
+        },
+        {
+          "title": "1.1.5 (2015-01-05)",
+          "depth": 2,
+          "id": "1.1.5-(2015-01-05)"
+        }
+      ]
+    },
+    "first-steps.html": {
+      "source": "docs/first-steps.md",
       "title": "First Steps",
-      "slug": "devfirst-steps"
+      "slug": "first-steps"
     },
-    "dev/customization.html": {
-      "source": "docs/dev/customization.md",
-      "title": "Customization",
-      "slug": "devcustomization",
+    "customization/colors.html": {
+      "source": "docs/customization/colors.md",
+      "title": "Colors",
+      "slug": "customizationcolors"
+    },
+    "customization/cover.html": {
+      "source": "docs/customization/cover.md",
+      "title": "Cover",
+      "slug": "customizationcover"
+    },
+    "customization/favicon.html": {
+      "source": "docs/customization/favicon.md",
+      "title": "Favicon",
+      "slug": "customizationfavicon"
+    },
+    "customization/google-analytics.html": {
+      "source": "docs/customization/google-analytics.md",
+      "title": "Google Analytics",
+      "slug": "customizationgoogle-analytics"
+    },
+    "customization/comments.html": {
+      "source": "docs/customization/comments.md",
+      "title": "Comments",
+      "slug": "customizationcomments"
+    },
+    "customization/highlight-code.html": {
+      "source": "docs/customization/highlight-code.md",
+      "title": "Highlight Code",
+      "slug": "customizationhighlight-code"
+    },
+    "customization/static-pages.html": {
+      "source": "docs/customization/static-pages.md",
+      "title": "Static Pages",
+      "slug": "customizationstatic-pages"
+    },
+    "customization/posts-headline.html": {
+      "source": "docs/customization/posts-headline.md",
+      "title": "Posts Headline",
+      "slug": "customizationposts-headline"
+    },
+    "customization/infinite-scroll.html": {
+      "source": "docs/customization/infinite-scroll.md",
+      "title": "Infinite Scroll",
+      "slug": "customizationinfinite-scroll"
+    },
+    "customization/search-engine/index.html": {
+      "source": "docs/customization/search-engine/README.md",
+      "title": "Search Engine",
+      "slug": "customizationsearch-engine",
       "headings": [
         {
-          "title": "Highlight Code",
+          "title": "Creating the blog index",
           "depth": 2,
-          "id": "highlight-code"
+          "id": "creating-the-blog-index"
         },
         {
-          "title": "Google Analytics",
+          "title": "Connecting with your blog content",
           "depth": 2,
-          "id": "google-analytics"
+          "id": "connecting-with-your-blog-content"
         },
         {
-          "title": "Comments",
+          "title": "Sitemap",
           "depth": 2,
-          "id": "comments"
+          "id": "sitemap"
         },
         {
-          "title": "Open Button",
+          "title": "Default Values",
           "depth": 2,
-          "id": "open-button"
-        },
-        {
-          "title": "Profile title",
-          "depth": 2,
-          "id": "profile-title"
-        },
-        {
-          "title": "Profile subtitle",
-          "depth": 2,
-          "id": "profile-subtitle"
-        },
-        {
-          "title": "Posts Headline",
-          "depth": 2,
-          "id": "posts-headline"
-        },
-        {
-          "title": "Colors",
-          "depth": 2,
-          "id": "colors"
-        },
-        {
-          "title": "Social Networks",
-          "depth": 2,
-          "id": "social-networks"
-        },
-        {
-          "title": "Links",
-          "depth": 2,
-          "id": "links"
-        },
-        {
-          "title": "Favicon",
-          "depth": 2,
-          "id": "favicon"
-        },
-        {
-          "title": "Cover",
-          "depth": 2,
-          "id": "cover"
-        },
-        {
-          "title": "Custom static pages",
-          "depth": 2,
-          "id": "custom-static-pages"
-        },
-        {
-          "title": "Progress Bar",
-          "depth": 2,
-          "id": "progress-bar"
+          "id": "default-values"
         }
       ]
     },
-    "dev/build-production.html": {
-      "source": "docs/dev/build-production.md",
-      "title": "Build Production",
-      "slug": "devbuild-production",
-      "headings": [
-        {
-          "title": "Usage with Ghost(Pro)",
-          "depth": 2,
-          "id": "usage-with-ghost(pro)"
-        }
-      ]
+    "customization/profile-subtitle.html": {
+      "source": "docs/customization/profile-subtitle.md",
+      "title": "Profile Title",
+      "slug": "customizationprofile-subtitle-2"
     },
-    "dev/tech-support.html": {
-      "source": "docs/dev/tech-support.md",
+    "customization/social-networks.html": {
+      "source": "docs/customization/social-networks.md",
+      "title": "Social Networks",
+      "slug": "customizationsocial-networks"
+    },
+    "customization/open-button.html": {
+      "source": "docs/customization/open-button.md",
+      "title": "Open Button",
+      "slug": "customizationopen-button"
+    },
+    "customization/links.html": {
+      "source": "docs/customization/links.md",
+      "title": "Links",
+      "slug": "customizationlinks"
+    },
+    "tech-support.html": {
+      "source": "docs/tech-support.md",
       "title": "Tech Support",
-      "slug": "devtech-support"
+      "slug": "tech-support"
     }
   },
   "sources": {
     "README.md": "index.html",
-    "docs/dev/first-steps.md": "dev/first-steps.html",
-    "docs/dev/customization.md": "dev/customization.html",
-    "docs/dev/build-production.md": "dev/build-production.html",
-    "docs/dev/tech-support.md": "dev/tech-support.html"
+    "CHANGELOG.md": "CHANGELOG.html",
+    "docs/first-steps.md": "first-steps.html",
+    "docs/customization/colors.md": "customization/colors.html",
+    "docs/customization/cover.md": "customization/cover.html",
+    "docs/customization/favicon.md": "customization/favicon.html",
+    "docs/customization/google-analytics.md": "customization/google-analytics.html",
+    "docs/customization/comments.md": "customization/comments.html",
+    "docs/customization/highlight-code.md": "customization/highlight-code.html",
+    "docs/customization/static-pages.md": "customization/static-pages.html",
+    "docs/customization/posts-headline.md": "customization/posts-headline.html",
+    "docs/customization/infinite-scroll.md": "customization/infinite-scroll.html",
+    "docs/customization/search-engine/README.md": "customization/search-engine/index.html",
+    "docs/customization/profile-subtitle.md": "customization/profile-subtitle.html",
+    "docs/customization/social-networks.md": "customization/social-networks.html",
+    "docs/customization/open-button.md": "customization/open-button.html",
+    "docs/customization/links.md": "customization/links.html",
+    "docs/tech-support.md": "tech-support.html",
+    "docs/docpress.json": "docpress.json",
+    "docs/customization/search-engine/new-application.png": "customization/search-engine/new-application.png",
+    "docs/customization/search-engine/preview.png": "customization/search-engine/preview.png"
   }
 }

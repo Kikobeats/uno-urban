@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../../assets/style.css?t=a5a1fcab">
+    <script src="../../assets/script.js?t=3b192864"></script>
+    <title>Search Engine</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="body page-customizationsearch-engine">
+        <div class="header-nav">
+          <div class="right"><a href="https://github.com/Kikobeats/uno-urban" data-title="Kikobeats/uno-urban" class="iconlink">
+              <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
+          </div>
+        </div>
+        <div class="markdown-body"><h1 id="search-engine">Search Engine</h1>
+<p><img src="preview.png" alt=""></p>
+<p>Currently search engine is powered by <a href="https://www.algolia.com/">Algolia</a>.</p>
+<p>Because it depends of the blog content and the content is different per each blog installation, you need to setup it following the next steps.</p>
+<h2 id="creating-the-blog-index">Creating the blog index</h2>
+<p><a href="https://www.algolia.com/">Algolia</a> is a full text search engine. It offers a free plan, so we going to use it for create a intelligent index search of our content.</p>
+<p>For do it, <a href="https://www.algolia.com/users/sign_up">first need to create an account</a>.</p>
+<p>Using the account created, now we have to create an application domain:</p>
+<p><img src="new-application.png" alt=""></p>
+<p>Next step is create an index in the application domain.</p>
+<blockquote>
+<p>Click in the lateral menu into <strong>Indices</strong> and <strong>New Index</strong></p>
+</blockquote>
+<p>After that, we need to create a token with enough permissions or use Admin API Key.</p>
+<blockquote>
+<p>Click in the lateral menu into <strong>API Keys</strong> and <strong>New API Key</strong></p>
+</blockquote>
+<p>Now we have all the information to be possible connect with your index. This information are:</p>
+<ul>
+<li>APP_NAME</li>
+<li>APP_ID</li>
+<li>APP_KEY</li>
+<li>INDEX_NAME</li>
+</ul>
+<p>We are going to use it for connect with your blog content.</p>
+<h2 id="connecting-with-your-blog-content">Connecting with your blog content</h2>
+<p>Rename and edit <code>search.example.json</code> into <code>search.json</code>.</p>
+<p>You need to setup your information from your Algolia index.</p>
+<p>Also, you need to setup two things more:</p>
+<h2 id="sitemap">Sitemap</h2>
+<p>The content of the sitemap of your blog will be indexed by Algolia.</p>
+<p>For do that, you have to specify it as:</p>
+<pre><code class="lang-json">&quot;sitemaps&quot;: [
+  {&quot;url&quot;: &quot;https://YOUR_DOMAIN/sitemap-posts.xml&quot;},
+  {&quot;url&quot;: &quot;https://YOUR_DOMAIN/sitemap-pages.xml&quot;}
+],
+</code></pre>
+<h2 id="default-values">Default Values</h2>
+<p>We are going to index a set of attributes per each post. If not possible to determinate a value for one attribute, we can specify a default values.</p>
+<p>It&apos;s recommended to setup the follow default values:</p>
+<pre><code>&quot;defaults&quot;: {
+  &quot;image&quot;: &quot;https://YOUR_DOMAIN/assets/img/android-chrome-192x192.png&quot;,
+  &quot;category&quot;: &quot;uncategorized&quot;
+}
+</code></pre>
+<p>After that, run <code>gulp build-search</code> and the task will index your content.</p>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="../../customization/infinite-scroll.html"><span class="title">Infinite Scroll</span></a></div>
+          <div class="right"><a href="../../customization/profile-subtitle.html"><span class="label">Next: </span><span class="title">Profile Title</span></a></div>
+        </div>
+      </div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a href="../../index.html" class="link title  link-index">Uno Urban</a>
+            </li>
+            <li class="menu-item -level-1"><a href="../../CHANGELOG.html" class="link title  link-changelog">Changelog</a>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Development</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a href="../../first-steps.html" class="link title  link-first-steps">First Steps</a>
+                </li>
+                <li class="menu-item -level-2 -parent"><span class="title">Customization</span>
+                  <ul class="submenu">
+                    <li class="menu-item -level-3"><span class="title">General</span>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/colors.html" class="link title  link-customizationcolors">Colors</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/cover.html" class="link title  link-customizationcover">Cover</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/favicon.html" class="link title  link-customizationfavicon">Favicon</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/google-analytics.html" class="link title  link-customizationgoogle-analytics">Google Analytics</a>
+                    </li>
+                    <li class="menu-item -level-3"><span class="title">Post</span>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/comments.html" class="link title  link-customizationcomments">Comments</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/highlight-code.html" class="link title  link-customizationhighlight-code">Highlight Code</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/static-pages.html" class="link title  link-customizationstatic-pages">Static Pages</a>
+                    </li>
+                    <li class="menu-item -level-3"><span class="title">Index</span>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/posts-headline.html" class="link title  link-customizationposts-headline">Posts Headline</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/infinite-scroll.html" class="link title  link-customizationinfinite-scroll">Infinite Scroll</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="../../customization/search-engine/index.html" class="link title -active link-customizationsearch-engine">Search Engine</a>
+                      <ul class="headings heading-list">
+                        <li class="heading-item -depth-2"><a href="#creating-the-blog-index" class="hlink link-creating-the-blog-index">Creating the blog index</a>
+                        </li>
+                        <li class="heading-item -depth-2"><a href="#connecting-with-your-blog-content" class="hlink link-connecting-with-your-blog-content">Connecting with your blog content</a>
+                        </li>
+                        <li class="heading-item -depth-2"><a href="#sitemap" class="hlink link-sitemap">Sitemap</a>
+                        </li>
+                        <li class="heading-item -depth-2"><a href="#default-values" class="hlink link-default-values">Default Values</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="menu-item -level-3 -parent"><span class="title">Sidebar</span>
+                      <ul class="submenu">
+                        <li class="menu-item -level-4"><a href="../../customization/profile-subtitle.html" class="link title  link-customizationprofile-subtitle">Profile Subtitle</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="../../customization/profile-subtitle.html" class="link title  link-customizationprofile-subtitle-2">Profile Title</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="../../customization/social-networks.html" class="link title  link-customizationsocial-networks">Social Networks</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="../../customization/open-button.html" class="link title  link-customizationopen-button">Open Button</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="../../customization/links.html" class="link title  link-customizationlinks">Links</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a href="../../tech-support.html" class="link title  link-tech-support">Tech Support</a>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </body>
+</html>
