@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../../assets/style.css?t=a5a1fcab">
+    <link rel="stylesheet" href="../../extra.css?t=64391f76">
+    <script src="../../extra.js?t=395a2e0b"></script>
     <script src="../../assets/script.js?t=dba8d8f8"></script>
     <title>Search Engine</title>
     <meta name="viewport" content="width=device-width">
@@ -42,26 +44,37 @@
 </ul>
 <p>We are going to use it for connect with your blog content.</p>
 <h2 id="connecting-with-your-blog-content">Connecting with your blog content</h2>
-<p>Rename and edit <code>search.example.json</code> into <code>search.json</code>.</p>
-<p>You need to setup your information from your Algolia index.</p>
-<p>Also, you need to setup two things more:</p>
-<h2 id="sitemap">Sitemap</h2>
-<p>The content of the sitemap of your blog will be indexed by Algolia.</p>
-<p>For do that, you have to specify it as:</p>
+<h3 id="backend">Backend</h3>
+<p>We need to connect with algolia service and send our blog data.</p>
+<p>First, Rename and edit <code>search.example.json</code> into <code>search.json</code>.</p>
+<p>As you can see in this file, you need to setup your algolia connection using the variables reported by Algolia. Also you need to put special attention in two things.</p>
+<h4 id="specifing-sitemaps">Specifing Sitemaps</h4>
+<p>It specifies where is the content of your blog.</p>
+<p>It&apos;s recommended specify the follow URL&apos;s:</p>
 <pre><code class="lang-json">&quot;sitemaps&quot;: [
   {&quot;url&quot;: &quot;https://YOUR_DOMAIN/sitemap-posts.xml&quot;},
   {&quot;url&quot;: &quot;https://YOUR_DOMAIN/sitemap-pages.xml&quot;}
 ],
 </code></pre>
-<h2 id="default-values">Default Values</h2>
-<p>We are going to index a set of attributes per each post. If not possible to determinate a value for one attribute, we can specify a default values.</p>
+<h4 id="setup-default-values">Setup default values</h4>
+<p>We are going to index a set of attributes per each post.</p>
+<p>If not possible to determinate a value for one attribute, we can specify a default values.</p>
 <p>It&apos;s recommended to setup the follow default values:</p>
 <pre><code>&quot;defaults&quot;: {
   &quot;image&quot;: &quot;https://YOUR_DOMAIN/assets/img/android-chrome-192x192.png&quot;,
   &quot;category&quot;: &quot;uncategorized&quot;
 }
 </code></pre>
-<p>After that, run <code>gulp build-search</code> and the task will index your content.</p>
+<p>Also be sure to review favicon customization first.</p>
+<h4 id="run-the-index-process">Run the index process</h4>
+<p>Exec <code>gulp build-search</code> and the task will index your content.</p>
+<h2 id="frontend">Frontend</h2>
+<p>The last step that we need to do is connect the frontend client to access to your backend index.</p>
+<p>Go to <code>Admin Panel</code> &#x2192; <code>Code Injection</code> &#x2192; <code>Blog Header</code>:</p>
+<pre><code class="lang-js"><span class="pl-k">var</span> algolia_app_id = <span class="pl-s">&apos;APP_ID&apos;</span>
+<span class="pl-k">var</span> algolia_api_key = <span class="pl-s">&apos;APP_KEY&apos;</span>
+<span class="pl-k">var</span> algolia_index = <span class="pl-s">&apos;INDEX_NAME&apos;</span>
+</code></pre>
 
         </div>
         <div class="footer-nav">
@@ -111,10 +124,12 @@
                         <li class="heading-item -depth-2"><a href="#creating-the-blog-index" class="hlink link-creating-the-blog-index">Creating the blog index</a>
                         </li>
                         <li class="heading-item -depth-2"><a href="#connecting-with-your-blog-content" class="hlink link-connecting-with-your-blog-content">Connecting with your blog content</a>
+                          <ul class="heading-list -depth-2">
+                            <li class="heading-item -depth-3"><a href="#backend" class="hlink link-backend">Backend</a>
+                            </li>
+                          </ul>
                         </li>
-                        <li class="heading-item -depth-2"><a href="#sitemap" class="hlink link-sitemap">Sitemap</a>
-                        </li>
-                        <li class="heading-item -depth-2"><a href="#default-values" class="hlink link-default-values">Default Values</a>
+                        <li class="heading-item -depth-2"><a href="#frontend" class="hlink link-frontend">Frontend</a>
                         </li>
                       </ul>
                     </li>

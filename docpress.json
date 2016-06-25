@@ -1,3 +1,9 @@
 {
-  "github": "Kikobeats/uno-urban"
+  "github": "Kikobeats/uno-urban",
+  "css": [
+    "extra.css"
+  ],
+  "js": [
+    "extra.js"
+  ]
 }

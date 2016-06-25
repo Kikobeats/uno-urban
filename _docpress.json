@@ -27,37 +27,37 @@
         "headings": [
           {
             "title": "🎉 New feature: Full Text Search! 🎉",
-            "depth": 2,
+            "depth": 3,
             "id": "new-feature:-full-text-search!"
           },
           {
             "title": "⚡️ Improvement: General Perfomance. ⚡️",
-            "depth": 2,
+            "depth": 3,
             "id": "improvement:-general-perfomance."
           },
           {
             "title": "⚡️ Improvement: Bundles split. ⚡️",
-            "depth": 2,
+            "depth": 3,
             "id": "improvement:-bundles-split."
           },
           {
             "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
-            "depth": 2,
+            "depth": 3,
             "id": "improvement:-infinite-scroll."
           },
           {
             "title": "💅 Refactor: Docs. 💅",
-            "depth": 2,
+            "depth": 3,
             "id": "refactor:-docs."
           },
           {
             "title": "🤓 Questions? 🤓",
-            "depth": 2,
+            "depth": 3,
             "id": "questions"
           },
           {
             "title": "Commits",
-            "depth": 2,
+            "depth": 3,
             "id": "commits"
           },
           {
@@ -491,17 +491,19 @@
                   {
                     "title": "Connecting with your blog content",
                     "depth": 2,
-                    "id": "connecting-with-your-blog-content"
+                    "id": "connecting-with-your-blog-content",
+                    "headings": [
+                      {
+                        "title": "Backend",
+                        "depth": 3,
+                        "id": "backend"
+                      }
+                    ]
                   },
                   {
-                    "title": "Sitemap",
+                    "title": "Frontend",
                     "depth": 2,
-                    "id": "sitemap"
-                  },
-                  {
-                    "title": "Default Values",
-                    "depth": 2,
-                    "id": "default-values"
+                    "id": "frontend"
                   }
                 ]
               },
@@ -577,37 +579,37 @@
       "headings": [
         {
           "title": "🎉 New feature: Full Text Search! 🎉",
-          "depth": 2,
+          "depth": 3,
           "id": "new-feature:-full-text-search!"
         },
         {
           "title": "⚡️ Improvement: General Perfomance. ⚡️",
-          "depth": 2,
+          "depth": 3,
           "id": "improvement:-general-perfomance."
         },
         {
           "title": "⚡️ Improvement: Bundles split. ⚡️",
-          "depth": 2,
+          "depth": 3,
           "id": "improvement:-bundles-split."
         },
         {
           "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
-          "depth": 2,
+          "depth": 3,
           "id": "improvement:-infinite-scroll."
         },
         {
           "title": "💅 Refactor: Docs. 💅",
-          "depth": 2,
+          "depth": 3,
           "id": "refactor:-docs."
         },
         {
           "title": "🤓 Questions? 🤓",
-          "depth": 2,
+          "depth": 3,
           "id": "questions"
         },
         {
           "title": "Commits",
-          "depth": 2,
+          "depth": 3,
           "id": "commits"
         },
         {
@@ -1015,17 +1017,19 @@
         {
           "title": "Connecting with your blog content",
           "depth": 2,
-          "id": "connecting-with-your-blog-content"
+          "id": "connecting-with-your-blog-content",
+          "headings": [
+            {
+              "title": "Backend",
+              "depth": 3,
+              "id": "backend"
+            }
+          ]
         },
         {
-          "title": "Sitemap",
+          "title": "Frontend",
           "depth": 2,
-          "id": "sitemap"
-        },
-        {
-          "title": "Default Values",
-          "depth": 2,
-          "id": "default-values"
+          "id": "frontend"
         }
       ]
     },
@@ -1075,7 +1079,9 @@
     "docs/customization/links.md": "customization/links.html",
     "docs/tech-support.md": "tech-support.html",
     "docs/docpress.json": "docpress.json",
-    "docs/customization/search-engine/new-application.png": "customization/search-engine/new-application.png",
-    "docs/customization/search-engine/preview.png": "customization/search-engine/preview.png"
+    "docs/extra.css": "extra.css",
+    "docs/extra.js": "extra.js",
+    "docs/customization/search-engine/preview.png": "customization/search-engine/preview.png",
+    "docs/customization/search-engine/new-application.png": "customization/search-engine/new-application.png"
   }
 }
