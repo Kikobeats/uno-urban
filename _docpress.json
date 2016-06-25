@@ -26,6 +26,41 @@
         "slug": "changelog",
         "headings": [
           {
+            "title": "🎉 New feature: Full Text Search! 🎉",
+            "depth": 2,
+            "id": "new-feature:-full-text-search!"
+          },
+          {
+            "title": "⚡️ Improvement: General Perfomance. ⚡️",
+            "depth": 2,
+            "id": "improvement:-general-perfomance."
+          },
+          {
+            "title": "⚡️ Improvement: Bundles split. ⚡️",
+            "depth": 2,
+            "id": "improvement:-bundles-split."
+          },
+          {
+            "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
+            "depth": 2,
+            "id": "improvement:-infinite-scroll."
+          },
+          {
+            "title": "💅 Refactor: Docs. 💅",
+            "depth": 2,
+            "id": "refactor:-docs."
+          },
+          {
+            "title": "🤓 Questions? 🤓",
+            "depth": 2,
+            "id": "questions"
+          },
+          {
+            "title": "Commits",
+            "depth": 2,
+            "id": "commits"
+          },
+          {
             "title": "3.2.3 (2016-06-05)",
             "depth": 2,
             "id": "3.2.3-(2016-06-05)"
@@ -540,6 +575,41 @@
       "title": "Changelog",
       "slug": "changelog",
       "headings": [
+        {
+          "title": "🎉 New feature: Full Text Search! 🎉",
+          "depth": 2,
+          "id": "new-feature:-full-text-search!"
+        },
+        {
+          "title": "⚡️ Improvement: General Perfomance. ⚡️",
+          "depth": 2,
+          "id": "improvement:-general-perfomance."
+        },
+        {
+          "title": "⚡️ Improvement: Bundles split. ⚡️",
+          "depth": 2,
+          "id": "improvement:-bundles-split."
+        },
+        {
+          "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
+          "depth": 2,
+          "id": "improvement:-infinite-scroll."
+        },
+        {
+          "title": "💅 Refactor: Docs. 💅",
+          "depth": 2,
+          "id": "refactor:-docs."
+        },
+        {
+          "title": "🤓 Questions? 🤓",
+          "depth": 2,
+          "id": "questions"
+        },
+        {
+          "title": "Commits",
+          "depth": 2,
+          "id": "commits"
+        },
         {
           "title": "3.2.3 (2016-06-05)",
           "depth": 2,

@@ -18,6 +18,32 @@
         </div>
         <div class="markdown-body"><p><a name="3.3.0"></a></p>
 <h1 id="3.3.0-(2016-06-25)">3.3.0 (2016-06-25)</h1>
+<h2 id="new-feature:-full-text-search!">&#x1F389; New feature: Full Text Search! &#x1F389;</h2>
+<p>I consider this feature very important because I&apos;m searching all the time inside my posts.</p>
+<p>In the past I used different strategies for do that, but they only worked partially.</p>
+<p>Now I found a fancy way to do it.</p>
+<p>You can try it. Enter at <a href="https://kikobeats.com">https://kikobeats.com</a> and type &apos;css&apos;.</p>
+<p>Of course you can configure this feature in your blog installation.</p>
+<p>See the docs section about that: <a href="https://kikobeats.github.io/uno-urban/customization/search-engine/index.html">https://kikobeats.github.io/uno-urban/customization/search-engine/index.html</a></p>
+<h2 id="improvement:-general-perfomance.">&#x26A1;&#xFE0F; Improvement: General Perfomance. &#x26A1;&#xFE0F;</h2>
+<p>I detected optimization patterns related with DOM selector.</p>
+<p>The behavior is the same, but now we avoid do unnecessary DOM search.</p>
+<p>I&apos;m sure that now your site will be work better on mobile devices.</p>
+<h2 id="improvement:-bundles-split.">&#x26A1;&#xFE0F; Improvement: Bundles split. &#x26A1;&#xFE0F;</h2>
+<p>Related with the DOM optimization, I also detected that not all the views need to load the same assets.</p>
+<p>For example, in a post view, we can avoid specific css and js related with index view.</p>
+<p>The result: Now we load 50% less of assets depending of the view.</p>
+<p>That&apos;s a very WOW.</p>
+<h2 id="improvement:-infinite-scroll.">&#x26A1;&#xFE0F; Improvement: Infinite Scroll. &#x26A1;&#xFE0F;</h2>
+<p>Infinite scroll is a pretty feature that under the hood it needs to do it efficiently at terms of fetching and rendering.</p>
+<p>I spent time doing better and improving UX.</p>
+<h2 id="refactor:-docs.">&#x1F485; Refactor: Docs. &#x1F485;</h2>
+<p>In general terms, documentation is more complete now.</p>
+<p>I tried to avoid unnecessary clicks: You have from the home view all the information related with what you can do.</p>
+<p>Also I added <a href="https://kikobeats.github.io/uno-urban/CHANGELOG.html">changelog</a>.</p>
+<h2 id="questions">&#x1F913; Questions? &#x1F913;</h2>
+<p>If you have any problem, question or suggestions, remember that you contact with me using email or opening a public issue at <a href="https://github.com/Kikobeats/uno-urban#uno-urban-for-ghost">Uno Urban repository</a>.</p>
+<h2 id="commits">Commits</h2>
 <ul>
 <li>Add algolia copyright (<a href="https://github.com/kikobeats/uno-urban/commit/893b474">893b474</a>)</li>
 <li>Add Algolia setup (<a href="https://github.com/kikobeats/uno-urban/commit/2c95327">2c95327</a>)</li>
@@ -946,6 +972,20 @@
             </li>
             <li class="menu-item -level-1"><a href="CHANGELOG.html" class="link title -active link-changelog">Changelog</a>
               <ul class="headings heading-list">
+                <li class="heading-item -depth-2"><a href="#new-feature:-full-text-search!" class="hlink link-new-feature:-full-text-search!">🎉 New feature: Full Text Search! 🎉</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#improvement:-general-perfomance." class="hlink link-improvement:-general-perfomance.">⚡️ Improvement: General Perfomance. ⚡️</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#improvement:-bundles-split." class="hlink link-improvement:-bundles-split.">⚡️ Improvement: Bundles split. ⚡️</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#improvement:-infinite-scroll." class="hlink link-improvement:-infinite-scroll.">⚡️ Improvement: Infinite Scroll. ⚡️</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#refactor:-docs." class="hlink link-refactor:-docs.">💅 Refactor: Docs. 💅</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#questions" class="hlink link-questions">🤓 Questions? 🤓</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#commits" class="hlink link-commits">Commits</a>
+                </li>
                 <li class="heading-item -depth-2"><a href="#3.2.3-(2016-06-05)" class="hlink link-3.2.3-(2016-06-05)">3.2.3 (2016-06-05)</a>
                 </li>
                 <li class="heading-item -depth-2"><a href="#3.2.2-(2016-05-25)" class="hlink link-3.2.2-(2016-05-25)">3.2.2 (2016-05-25)</a>
