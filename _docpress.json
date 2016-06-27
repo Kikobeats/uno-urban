@@ -26,39 +26,56 @@
         "slug": "changelog",
         "headings": [
           {
-            "title": "🎉 New feature: Full Text Search! 🎉",
-            "depth": 3,
-            "id": "new-feature:-full-text-search!"
-          },
-          {
-            "title": "⚡️ Improvement: General Perfomance. ⚡️",
-            "depth": 3,
-            "id": "improvement:-general-perfomance."
-          },
-          {
-            "title": "⚡️ Improvement: Bundles split. ⚡️",
-            "depth": 3,
-            "id": "improvement:-bundles-split."
-          },
-          {
-            "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
-            "depth": 3,
-            "id": "improvement:-infinite-scroll."
-          },
-          {
-            "title": "💅 Refactor: Docs. 💅",
-            "depth": 3,
-            "id": "refactor:-docs."
-          },
-          {
-            "title": "🤓 Questions? 🤓",
-            "depth": 3,
-            "id": "questions"
-          },
-          {
-            "title": "Commits",
-            "depth": 3,
-            "id": "commits"
+            "title": "3.3.1 (2016-06-27)",
+            "depth": 2,
+            "id": "3.3.1-(2016-06-27)",
+            "headings": [
+              {
+                "title": "🐞Bug: Fix Cover opening 🐞",
+                "depth": 3,
+                "id": "bug:-fix-cover-opening"
+              },
+              {
+                "title": "Commits",
+                "depth": 3,
+                "id": "commits"
+              },
+              {
+                "title": "🎉 New feature: Full Text Search! 🎉",
+                "depth": 3,
+                "id": "new-feature:-full-text-search!"
+              },
+              {
+                "title": "⚡️ Improvement: General Perfomance. ⚡️",
+                "depth": 3,
+                "id": "improvement:-general-perfomance."
+              },
+              {
+                "title": "⚡️ Improvement: Bundles split. ⚡️",
+                "depth": 3,
+                "id": "improvement:-bundles-split."
+              },
+              {
+                "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
+                "depth": 3,
+                "id": "improvement:-infinite-scroll."
+              },
+              {
+                "title": "💅 Refactor: Docs. 💅",
+                "depth": 3,
+                "id": "refactor:-docs."
+              },
+              {
+                "title": "🤓 Questions? 🤓",
+                "depth": 3,
+                "id": "questions"
+              },
+              {
+                "title": "Commits",
+                "depth": 3,
+                "id": "commits"
+              }
+            ]
           },
           {
             "title": "3.2.3 (2016-06-05)",
@@ -578,39 +595,56 @@
       "slug": "changelog",
       "headings": [
         {
-          "title": "🎉 New feature: Full Text Search! 🎉",
-          "depth": 3,
-          "id": "new-feature:-full-text-search!"
-        },
-        {
-          "title": "⚡️ Improvement: General Perfomance. ⚡️",
-          "depth": 3,
-          "id": "improvement:-general-perfomance."
-        },
-        {
-          "title": "⚡️ Improvement: Bundles split. ⚡️",
-          "depth": 3,
-          "id": "improvement:-bundles-split."
-        },
-        {
-          "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
-          "depth": 3,
-          "id": "improvement:-infinite-scroll."
-        },
-        {
-          "title": "💅 Refactor: Docs. 💅",
-          "depth": 3,
-          "id": "refactor:-docs."
-        },
-        {
-          "title": "🤓 Questions? 🤓",
-          "depth": 3,
-          "id": "questions"
-        },
-        {
-          "title": "Commits",
-          "depth": 3,
-          "id": "commits"
+          "title": "3.3.1 (2016-06-27)",
+          "depth": 2,
+          "id": "3.3.1-(2016-06-27)",
+          "headings": [
+            {
+              "title": "🐞Bug: Fix Cover opening 🐞",
+              "depth": 3,
+              "id": "bug:-fix-cover-opening"
+            },
+            {
+              "title": "Commits",
+              "depth": 3,
+              "id": "commits"
+            },
+            {
+              "title": "🎉 New feature: Full Text Search! 🎉",
+              "depth": 3,
+              "id": "new-feature:-full-text-search!"
+            },
+            {
+              "title": "⚡️ Improvement: General Perfomance. ⚡️",
+              "depth": 3,
+              "id": "improvement:-general-perfomance."
+            },
+            {
+              "title": "⚡️ Improvement: Bundles split. ⚡️",
+              "depth": 3,
+              "id": "improvement:-bundles-split."
+            },
+            {
+              "title": "⚡️ Improvement: Infinite Scroll. ⚡️",
+              "depth": 3,
+              "id": "improvement:-infinite-scroll."
+            },
+            {
+              "title": "💅 Refactor: Docs. 💅",
+              "depth": 3,
+              "id": "refactor:-docs."
+            },
+            {
+              "title": "🤓 Questions? 🤓",
+              "depth": 3,
+              "id": "questions"
+            },
+            {
+              "title": "Commits",
+              "depth": 3,
+              "id": "commits"
+            }
+          ]
         },
         {
           "title": "3.2.3 (2016-06-05)",
