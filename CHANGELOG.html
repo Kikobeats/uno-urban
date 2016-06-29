@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/style.css?t=a5a1fcab">
+    <link rel="stylesheet" href="extra.css?t=64391f76">
+    <script src="extra.js?t=395a2e0b"></script>
+    <script src="assets/script.js?t=dba8d8f8"></script>
+    <title>Changelog</title>
+    <meta name="viewport" content="width=device-width">
+  </head>
+  <body class="-menu-visible">
+    <div class="doc-layout">
+      <div class="toggle menu-toggle js-menu-toggle"></div>
+      <div class="body page-changelog">
+        <div class="header-nav">
+          <div class="right"><a href="https://github.com/Kikobeats/uno-urban" data-title="Kikobeats/uno-urban" class="iconlink">
+              <!-- span.title Open in GitHub--><span class="icon -github"></span></a>
+          </div>
+        </div>
+        <div class="markdown-body"><p><a name="3.3.2"></a></p>
+<h2 id="3.3.2-(2016-06-27)">3.3.2 (2016-06-27)</h2>
+<ul>
+<li>Improve algolia settings (<a href="https://github.com/kikobeats/uno-urban/commit/584301e">584301e</a>)</li>
+<li>Update (<a href="https://github.com/kikobeats/uno-urban/commit/13fe05e">13fe05e</a>)</li>
+</ul>
+<p><a name="3.3.1"></a></p>
+<h2 id="3.3.1-(2016-06-27)">3.3.1 (2016-06-27)</h2>
+<h3 id="bug:-fix-cover-opening">&#x1F41E;Bug: Fix Cover opening &#x1F41E;</h3>
+<h3 id="commits">Commits</h3>
+<ul>
+<li>Add changelog update (<a href="https://github.com/kikobeats/uno-urban/commit/c43daea">c43daea</a>)</li>
+<li>Adjust bumped steps (<a href="https://github.com/kikobeats/uno-urban/commit/f5b9c5f">f5b9c5f</a>)</li>
+<li>Extend search engine docs (<a href="https://github.com/kikobeats/uno-urban/commit/8a91301">8a91301</a>)</li>
+<li>Fix opening bug (<a href="https://github.com/kikobeats/uno-urban/commit/65709e5">65709e5</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/1ece05c">1ece05c</a>)</li>
+</ul>
+<p><a name="3.3.0"></a></p>
+<h1 id="3.3.0-(2016-06-25)">3.3.0 (2016-06-25)</h1>
+<h3 id="new-feature:-full-text-search!">&#x1F389; New feature: Full Text Search! &#x1F389;</h3>
+<p>I consider this feature very important because I&apos;m searching all the time inside my posts.</p>
+<p>In the past I used different strategies for do that, but they only worked partially.</p>
+<p>Now I found a fancy way to do it.</p>
+<p>You can try it. Enter at <a href="https://kikobeats.com">https://kikobeats.com</a> and type &apos;css&apos;.</p>
+<p>Of course you can configure this feature in your blog installation.</p>
+<p>See the docs section about that: <a href="https://kikobeats.github.io/uno-urban/customization/search-engine/index.html">https://kikobeats.github.io/uno-urban/customization/search-engine/index.html</a></p>
+<h3 id="improvement:-general-perfomance.">&#x26A1;&#xFE0F; Improvement: General Perfomance. &#x26A1;&#xFE0F;</h3>
+<p>I detected optimization patterns related with DOM selector.</p>
+<p>The behavior is the same, but now we avoid do unnecessary DOM search.</p>
+<p>I&apos;m sure that now your site will be work better on mobile devices.</p>
+<h3 id="improvement:-bundles-split.">&#x26A1;&#xFE0F; Improvement: Bundles split. &#x26A1;&#xFE0F;</h3>
+<p>Related with the DOM optimization, I also detected that not all the views need to load the same assets.</p>
+<p>For example, in a post view, we can avoid specific css and js related with index view.</p>
+<p>The result: Now we load 50% less of assets depending of the view.</p>
+<p>That&apos;s a very WOW.</p>
+<h3 id="improvement:-infinite-scroll.">&#x26A1;&#xFE0F; Improvement: Infinite Scroll. &#x26A1;&#xFE0F;</h3>
+<p>Infinite scroll is a pretty feature that under the hood it needs to do it efficiently at terms of fetching and rendering.</p>
+<p>I spent time doing better and improving UX.</p>
+<h3 id="refactor:-docs.">&#x1F485; Refactor: Docs. &#x1F485;</h3>
+<p>In general terms, documentation is more complete now.</p>
+<p>I tried to avoid unnecessary clicks: You have from the home view all the information related with what you can do.</p>
+<p>Also I added <a href="https://kikobeats.github.io/uno-urban/CHANGELOG.html">changelog</a>.</p>
+<h3 id="questions">&#x1F913; Questions? &#x1F913;</h3>
+<p>If you have any problem, question or suggestions, remember that you contact with me using email or opening a public issue at <a href="https://github.com/Kikobeats/uno-urban#uno-urban-for-ghost">Uno Urban repository</a>.</p>
+<h3 id="commits">Commits</h3>
+<ul>
+<li>Add algolia copyright (<a href="https://github.com/kikobeats/uno-urban/commit/893b474">893b474</a>)</li>
+<li>Add Algolia setup (<a href="https://github.com/kikobeats/uno-urban/commit/2c95327">2c95327</a>)</li>
+<li>Add algolia task (<a href="https://github.com/kikobeats/uno-urban/commit/82928dc">82928dc</a>)</li>
+<li>Add infinite scroll docs (<a href="https://github.com/kikobeats/uno-urban/commit/a810683">a810683</a>)</li>
+<li>Add prod settings to gitignore (<a href="https://github.com/kikobeats/uno-urban/commit/fd2992a">fd2992a</a>)</li>
+<li>Add Search Engine docs (<a href="https://github.com/kikobeats/uno-urban/commit/3fad244">3fad244</a>)</li>
+<li>Adjust mark style (<a href="https://github.com/kikobeats/uno-urban/commit/d400177">d400177</a>)</li>
+<li>Adjust template (<a href="https://github.com/kikobeats/uno-urban/commit/e226db5">e226db5</a>)</li>
+<li>Adjust templating and cache infinite scroll context (<a href="https://github.com/kikobeats/uno-urban/commit/7cc27a9">7cc27a9</a>)</li>
+<li>Better output logs (<a href="https://github.com/kikobeats/uno-urban/commit/6d8179c">6d8179c</a>)</li>
+<li>Create JS factor bundle based on the view (<a href="https://github.com/kikobeats/uno-urban/commit/e574296">e574296</a>)</li>
+<li>don&apos;t infinite scroll under search (<a href="https://github.com/kikobeats/uno-urban/commit/76730e5">76730e5</a>)</li>
+<li>Enable search for mobile devices (<a href="https://github.com/kikobeats/uno-urban/commit/b7bf49e">b7bf49e</a>)</li>
+<li>Enable search out of desktop (<a href="https://github.com/kikobeats/uno-urban/commit/aca0b4f">aca0b4f</a>)</li>
+<li>Fix context (<a href="https://github.com/kikobeats/uno-urban/commit/b44e43f">b44e43f</a>)</li>
+<li>Fix date time stamp (<a href="https://github.com/kikobeats/uno-urban/commit/27c5fb2">27c5fb2</a>)</li>
+<li>Fix fetch tags posts (<a href="https://github.com/kikobeats/uno-urban/commit/be9a2d3">be9a2d3</a>)</li>
+<li>Fix hide pagination with infiniteScroll (<a href="https://github.com/kikobeats/uno-urban/commit/47d2872">47d2872</a>)</li>
+<li>Fix time ago in fetched posts (<a href="https://github.com/kikobeats/uno-urban/commit/7014a9a">7014a9a</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/d2733db">d2733db</a>)</li>
+<li>highlight search results (<a href="https://github.com/kikobeats/uno-urban/commit/3a21018">3a21018</a>)</li>
+<li>Improve reload (<a href="https://github.com/kikobeats/uno-urban/commit/6706940">6706940</a>)</li>
+<li>Improve template (<a href="https://github.com/kikobeats/uno-urban/commit/fcc232e">fcc232e</a>)</li>
+<li>Little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/8737219">8737219</a>)</li>
+<li>Perfomance improvements (<a href="https://github.com/kikobeats/uno-urban/commit/21cd0d5">21cd0d5</a>)</li>
+<li>Refactor docs scaffold (<a href="https://github.com/kikobeats/uno-urban/commit/e0b161d">e0b161d</a>)</li>
+<li>Refactor, more expressive (<a href="https://github.com/kikobeats/uno-urban/commit/149dd12">149dd12</a>)</li>
+<li>Remove unnecessary param (<a href="https://github.com/kikobeats/uno-urban/commit/9356d22">9356d22</a>)</li>
+<li>search.find first approach (<a href="https://github.com/kikobeats/uno-urban/commit/910f689">910f689</a>)</li>
+<li>Simplify fetch new posts (<a href="https://github.com/kikobeats/uno-urban/commit/ebdaa71">ebdaa71</a>)</li>
+<li>Update build settings (<a href="https://github.com/kikobeats/uno-urban/commit/a80d281">a80d281</a>)</li>
+<li>WIP (<a href="https://github.com/kikobeats/uno-urban/commit/8b843ac">8b843ac</a>)</li>
+<li>WIP (<a href="https://github.com/kikobeats/uno-urban/commit/45cc37f">45cc37f</a>)</li>
+<li>WIP (<a href="https://github.com/kikobeats/uno-urban/commit/0ed539c">0ed539c</a>)</li>
+</ul>
+<p><a name="3.2.3"></a></p>
+<h2 id="3.2.3-(2016-06-05)">3.2.3 (2016-06-05)</h2>
+<ul>
+<li>Fix style type (<a href="https://github.com/kikobeats/uno-urban/commit/45d4142">45d4142</a>)</li>
+<li>Remove unnecessary dependency (<a href="https://github.com/kikobeats/uno-urban/commit/49cf5a7">49cf5a7</a>)</li>
+<li>Use same date format (<a href="https://github.com/kikobeats/uno-urban/commit/1564573">1564573</a>)</li>
+<li>Use title attribute with a tag (<a href="https://github.com/kikobeats/uno-urban/commit/59813c5">59813c5</a>)</li>
+</ul>
+<p><a name="3.2.2"></a></p>
+<h2 id="3.2.2-(2016-05-25)">3.2.2 (2016-05-25)</h2>
+<ul>
+<li>Add caption style for linkable image (<a href="https://github.com/kikobeats/uno-urban/commit/0373c7f">0373c7f</a>)</li>
+<li>Add doc badges (<a href="https://github.com/kikobeats/uno-urban/commit/4ee94f0">4ee94f0</a>)</li>
+<li>Adjust search icon style (<a href="https://github.com/kikobeats/uno-urban/commit/7d2cae5">7d2cae5</a>)</li>
+<li>Avoid escape ghost title helper (<a href="https://github.com/kikobeats/uno-urban/commit/023aa1b">023aa1b</a>)</li>
+<li>Fix img style for linkable images (<a href="https://github.com/kikobeats/uno-urban/commit/8460dd5">8460dd5</a>)</li>
+<li>Fix search icon style (<a href="https://github.com/kikobeats/uno-urban/commit/b214767">b214767</a>)</li>
+<li>Mixin &#x2192; extend, moar perfomance (<a href="https://github.com/kikobeats/uno-urban/commit/6008d21">6008d21</a>)</li>
+<li>Quote handlebars helpers (<a href="https://github.com/kikobeats/uno-urban/commit/10d4bbd">10d4bbd</a>)</li>
+<li>Remove unnecessary (<a href="https://github.com/kikobeats/uno-urban/commit/fd1fa0a">fd1fa0a</a>)</li>
+<li>SEO tweaks (<a href="https://github.com/kikobeats/uno-urban/commit/71cc1da">71cc1da</a>)</li>
+<li>Setup node version (<a href="https://github.com/kikobeats/uno-urban/commit/3f67a32">3f67a32</a>)</li>
+<li>Update bumped settings (<a href="https://github.com/kikobeats/uno-urban/commit/25fd4e0">25fd4e0</a>)</li>
+<li>Update remote repository (<a href="https://github.com/kikobeats/uno-urban/commit/9e0703a">9e0703a</a>)</li>
+<li>Use HTTPS when is possible (<a href="https://github.com/kikobeats/uno-urban/commit/79ed531">79ed531</a>)</li>
+</ul>
+<p><a name="3.2.1"></a></p>
+<h2 id="3.2.1-(2016-05-13)">3.2.1 (2016-05-13)</h2>
+<ul>
+<li>Adjust quote style (<a href="https://github.com/kikobeats/uno-urban/commit/eab1e7f">eab1e7f</a>)</li>
+<li>Fix selector (<a href="https://github.com/kikobeats/uno-urban/commit/e41607a">e41607a</a>)</li>
+<li>Little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/e273cb2">e273cb2</a>)</li>
+</ul>
+<p><a name="3.2.0"></a></p>
+<h1 id="3.2.0-(2016-05-08)">3.2.0 (2016-05-08)</h1>
+<ul>
+<li>Add headers! (<a href="https://github.com/kikobeats/uno-urban/commit/f0243ae">f0243ae</a>)</li>
+<li>Caching selector (<a href="https://github.com/kikobeats/uno-urban/commit/24baac2">24baac2</a>)</li>
+<li>Improve post related animation (<a href="https://github.com/kikobeats/uno-urban/commit/d63f504">d63f504</a>)</li>
+<li>Improve quote style perception (<a href="https://github.com/kikobeats/uno-urban/commit/c77d024">c77d024</a>)</li>
+<li>Linkify titles (<a href="https://github.com/kikobeats/uno-urban/commit/358c7e2">358c7e2</a>)</li>
+<li>Update deps and add linkify (<a href="https://github.com/kikobeats/uno-urban/commit/e00f643">e00f643</a>)</li>
+</ul>
+<p><a name="3.1.8"></a></p>
+<h2 id="3.1.8-(2016-04-12)">3.1.8 (2016-04-12)</h2>
+<ul>
+<li>Add @daleanthony as original design concept (<a href="https://github.com/kikobeats/uno-urban/commit/4dacd48">4dacd48</a>)</li>
+<li>Update pattern (<a href="https://github.com/kikobeats/uno-urban/commit/3b4bb36">3b4bb36</a>)</li>
+</ul>
+<p><a name="3.1.7"></a></p>
+<h2 id="3.1.7-(2016-03-20)">3.1.7 (2016-03-20)</h2>
+<ul>
+<li>Merge conditional effects (<a href="https://github.com/kikobeats/uno-urban/commit/cabe7b5">cabe7b5</a>)</li>
+<li>Update glob pattern to include issue template (<a href="https://github.com/kikobeats/uno-urban/commit/721c396">721c396</a>)</li>
+</ul>
+<p><a name="3.1.6"></a></p>
+<h2 id="3.1.6-(2016-03-15)">3.1.6 (2016-03-15)</h2>
+<ul>
+<li>3.1.6 releases (<a href="https://github.com/kikobeats/uno-urban/commit/e3d9c25">e3d9c25</a>)</li>
+<li>Fix overlay effects on infinite scroll (<a href="https://github.com/kikobeats/uno-urban/commit/e944bf9">e944bf9</a>)</li>
+<li>Update how to generate ghpages content (<a href="https://github.com/kikobeats/uno-urban/commit/470a5e8">470a5e8</a>)</li>
+</ul>
+<p><a name="3.1.5"></a></p>
+<h2 id="3.1.5-(2016-03-12)">3.1.5 (2016-03-12)</h2>
+<ul>
+<li>3.1.5 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d4475e1">d4475e1</a>)</li>
+<li>Add tech support section in docs (<a href="https://github.com/kikobeats/uno-urban/commit/e516d73">e516d73</a>)</li>
+<li>Better reference using pkg (<a href="https://github.com/kikobeats/uno-urban/commit/e90a50b">e90a50b</a>)</li>
+<li>Build subtasks (<a href="https://github.com/kikobeats/uno-urban/commit/bf1e8c5">bf1e8c5</a>)</li>
+<li>Fix cursive style (<a href="https://github.com/kikobeats/uno-urban/commit/9d222cc">9d222cc</a>)</li>
+<li>Update url (<a href="https://github.com/kikobeats/uno-urban/commit/f5a8eca">f5a8eca</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/d597a3a">d597a3a</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/3bc44ca">3bc44ca</a>)</li>
+</ul>
+<p><a name="3.1.4"></a></p>
+<h2 id="3.1.4-(2016-03-11)">3.1.4 (2016-03-11)</h2>
+<ul>
+<li>3.1.4 releases (<a href="https://github.com/kikobeats/uno-urban/commit/7245625">7245625</a>)</li>
+<li>Improve code style (<a href="https://github.com/kikobeats/uno-urban/commit/09f0607">09f0607</a>)</li>
+<li>Improve quote style (<a href="https://github.com/kikobeats/uno-urban/commit/df15f98">df15f98</a>)</li>
+<li>Update footer (<a href="https://github.com/kikobeats/uno-urban/commit/5eafe05">5eafe05</a>)</li>
+</ul>
+<p><a name="3.1.3"></a></p>
+<h2 id="3.1.3-(2016-03-06)">3.1.3 (2016-03-06)</h2>
+<ul>
+<li>3.1.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/0b406b2">0b406b2</a>)</li>
+<li>Fix variable reference (<a href="https://github.com/kikobeats/uno-urban/commit/4b6ba5f">4b6ba5f</a>)</li>
+</ul>
+<p><a name="3.1.2"></a></p>
+<h2 id="3.1.2-(2016-03-05)">3.1.2 (2016-03-05)</h2>
+<ul>
+<li>3.1.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/c5099ac">c5099ac</a>)</li>
+<li>Adjust line height (<a href="https://github.com/kikobeats/uno-urban/commit/6cf1fc0">6cf1fc0</a>)</li>
+</ul>
+<p><a name="3.1.1"></a></p>
+<h2 id="3.1.1-(2016-03-02)">3.1.1 (2016-03-02)</h2>
+<ul>
+<li>3.1.1 releases (<a href="https://github.com/kikobeats/uno-urban/commit/cff2433">cff2433</a>)</li>
+<li>Add progress bar documentation (<a href="https://github.com/kikobeats/uno-urban/commit/5710d7e">5710d7e</a>)</li>
+<li>Add progress bar documentation (<a href="https://github.com/kikobeats/uno-urban/commit/46dd6d7">46dd6d7</a>)</li>
+<li>Add support to update docs automatically (<a href="https://github.com/kikobeats/uno-urban/commit/7d99d37">7d99d37</a>)</li>
+<li>Fix progress bar (<a href="https://github.com/kikobeats/uno-urban/commit/66d9783">66d9783</a>)</li>
+<li>Improve quote style (<a href="https://github.com/kikobeats/uno-urban/commit/45670a5">45670a5</a>)</li>
+<li>Reading progress on posts (<a href="https://github.com/kikobeats/uno-urban/commit/ae528ca">ae528ca</a>)</li>
+<li>Refactor tasks (<a href="https://github.com/kikobeats/uno-urban/commit/317197c">317197c</a>)</li>
+<li>Update documentation (<a href="https://github.com/kikobeats/uno-urban/commit/df33fae">df33fae</a>)</li>
+</ul>
+<p><a name="3.1.0"></a></p>
+<h1 id="3.1.0-(2016-02-29)">3.1.0 (2016-02-29)</h1>
+<ul>
+<li>3.1.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/63c39eb">63c39eb</a>)</li>
+<li>Add image caption style (<a href="https://github.com/kikobeats/uno-urban/commit/c475302">c475302</a>)</li>
+</ul>
+<p><a name="3.0.2"></a></p>
+<h2 id="3.0.2-(2016-02-28)">3.0.2 (2016-02-28)</h2>
+<ul>
+<li>3.0.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/815f0b8">815f0b8</a>)</li>
+<li>Black color for first title (<a href="https://github.com/kikobeats/uno-urban/commit/0e2633c">0e2633c</a>)</li>
+<li>Fix line height (<a href="https://github.com/kikobeats/uno-urban/commit/c721a06">c721a06</a>)</li>
+<li>Update (<a href="https://github.com/kikobeats/uno-urban/commit/d2f2153">d2f2153</a>)</li>
+<li>Update (<a href="https://github.com/kikobeats/uno-urban/commit/e943dc3">e943dc3</a>)</li>
+<li>Update (<a href="https://github.com/kikobeats/uno-urban/commit/b669b42">b669b42</a>)</li>
+<li>Update license (<a href="https://github.com/kikobeats/uno-urban/commit/cc69a51">cc69a51</a>)</li>
+</ul>
+<p><a name="3.0.1"></a></p>
+<h2 id="3.0.1-(2016-02-27)">3.0.1 (2016-02-27)</h2>
+<ul>
+<li>3.0.1 releases (<a href="https://github.com/kikobeats/uno-urban/commit/4d09d2e">4d09d2e</a>)</li>
+<li>Fix (<a href="https://github.com/kikobeats/uno-urban/commit/69cbeb8">69cbeb8</a>)</li>
+<li>Fix command (<a href="https://github.com/kikobeats/uno-urban/commit/487d9fd">487d9fd</a>)</li>
+<li>Fix links (<a href="https://github.com/kikobeats/uno-urban/commit/f3b7f53">f3b7f53</a>)</li>
+<li>Sort plugins (<a href="https://github.com/kikobeats/uno-urban/commit/a6c7c7c">a6c7c7c</a>)</li>
+<li>Update for create bundles (<a href="https://github.com/kikobeats/uno-urban/commit/73b89cc">73b89cc</a>)</li>
+</ul>
+<p><a name="3.0.0"></a></p>
+<h1 id="3.0.0-(2016-02-27)">3.0.0 (2016-02-27)</h1>
+<ul>
+<li>3.0.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d799786">d799786</a>)</li>
+<li>ignore docpress (<a href="https://github.com/kikobeats/uno-urban/commit/4221a77">4221a77</a>)</li>
+<li>Refactor documentation (<a href="https://github.com/kikobeats/uno-urban/commit/ceb989c">ceb989c</a>)</li>
+<li>Setup basic documentation (<a href="https://github.com/kikobeats/uno-urban/commit/2253e52">2253e52</a>)</li>
+<li>Update description (<a href="https://github.com/kikobeats/uno-urban/commit/22b199e">22b199e</a>)</li>
+</ul>
+<p><a name="3.1.2-beta.0"></a></p>
+<h2 id="3.1.2-beta.0-(2016-02-27)">3.1.2-beta.0 (2016-02-27)</h2>
+<ul>
+<li>3.1.2-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/8f010e1">8f010e1</a>)</li>
+<li>Remove unnecessary (<a href="https://github.com/kikobeats/uno-urban/commit/bd1abe6">bd1abe6</a>)</li>
+<li>Rename css assets (<a href="https://github.com/kikobeats/uno-urban/commit/f7388e2">f7388e2</a>)</li>
+<li>Renamed package (<a href="https://github.com/kikobeats/uno-urban/commit/aded967">aded967</a>)</li>
+<li>Renaming assets (<a href="https://github.com/kikobeats/uno-urban/commit/79de402">79de402</a>)</li>
+<li>Update links (<a href="https://github.com/kikobeats/uno-urban/commit/9dabb62">9dabb62</a>)</li>
+<li>Update naming (<a href="https://github.com/kikobeats/uno-urban/commit/28af42b">28af42b</a>)</li>
+<li>Update reference (<a href="https://github.com/kikobeats/uno-urban/commit/6a74bd0">6a74bd0</a>)</li>
+<li>Update settings (<a href="https://github.com/kikobeats/uno-urban/commit/263207b">263207b</a>)</li>
+</ul>
+<p><a name="3.1.1-beta.0"></a></p>
+<h2 id="3.1.1-beta.0-(2016-02-27)">3.1.1-beta.0 (2016-02-27)</h2>
+<ul>
+<li>3.1.1-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/25cedcc">25cedcc</a>)</li>
+<li>Little improvements (<a href="https://github.com/kikobeats/uno-urban/commit/265c281">265c281</a>)</li>
+</ul>
+<p><a name="3.1.0-beta.0"></a></p>
+<h1 id="3.1.0-beta.0-(2016-02-27)">3.1.0-beta.0 (2016-02-27)</h1>
+<ul>
+<li>3.1.0-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/7eb606d">7eb606d</a>)</li>
+<li>Adjust colors (<a href="https://github.com/kikobeats/uno-urban/commit/a87bcb3">a87bcb3</a>)</li>
+<li>Avoid repeat (<a href="https://github.com/kikobeats/uno-urban/commit/f2aeea5">f2aeea5</a>)</li>
+<li>Avoid repeat (<a href="https://github.com/kikobeats/uno-urban/commit/8085aa3">8085aa3</a>)</li>
+<li>Clean font (<a href="https://github.com/kikobeats/uno-urban/commit/50d36b6">50d36b6</a>)</li>
+<li>Fix left (<a href="https://github.com/kikobeats/uno-urban/commit/3c1485f">3c1485f</a>)</li>
+<li>Fix padding (<a href="https://github.com/kikobeats/uno-urban/commit/010a0b4">010a0b4</a>)</li>
+<li>Fix tags (<a href="https://github.com/kikobeats/uno-urban/commit/f7b3b25">f7b3b25</a>)</li>
+<li>Hover style by default, special twitter color for post (<a href="https://github.com/kikobeats/uno-urban/commit/b1fe504">b1fe504</a>)</li>
+<li>Refactor bloquotes (<a href="https://github.com/kikobeats/uno-urban/commit/00d514b">00d514b</a>)</li>
+<li>Update (<a href="https://github.com/kikobeats/uno-urban/commit/8384416">8384416</a>)</li>
+</ul>
+<p><a name="3.0.6-beta.0"></a></p>
+<h2 id="3.0.6-beta.0-(2016-02-26)">3.0.6-beta.0 (2016-02-26)</h2>
+<ul>
+<li>3.0.6-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/0f4f1d6">0f4f1d6</a>)</li>
+<li>Adjust margins (<a href="https://github.com/kikobeats/uno-urban/commit/4591914">4591914</a>)</li>
+<li>Fix tag view (<a href="https://github.com/kikobeats/uno-urban/commit/946c094">946c094</a>)</li>
+</ul>
+<p><a name="3.0.5-beta.0"></a></p>
+<h2 id="3.0.5-beta.0-(2016-02-26)">3.0.5-beta.0 (2016-02-26)</h2>
+<ul>
+<li>3.0.5-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/a217a81">a217a81</a>)</li>
+<li>Better line height (<a href="https://github.com/kikobeats/uno-urban/commit/78e1d59">78e1d59</a>)</li>
+<li>Clean margin (<a href="https://github.com/kikobeats/uno-urban/commit/b891dbb">b891dbb</a>)</li>
+<li>Special line height for description (<a href="https://github.com/kikobeats/uno-urban/commit/9ee6dd9">9ee6dd9</a>)</li>
+</ul>
+<p><a name="3.0.4-beta.0"></a></p>
+<h2 id="3.0.4-beta.0-(2016-02-26)">3.0.4-beta.0 (2016-02-26)</h2>
+<ul>
+<li>3.0.4-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/6080aee">6080aee</a>)</li>
+<li>Fix line height (<a href="https://github.com/kikobeats/uno-urban/commit/41b1353">41b1353</a>)</li>
+<li>Fix post related position (<a href="https://github.com/kikobeats/uno-urban/commit/28e4e7f">28e4e7f</a>)</li>
+</ul>
+<p><a name="3.0.3-beta.0"></a></p>
+<h2 id="3.0.3-beta.0-(2016-02-25)">3.0.3-beta.0 (2016-02-25)</h2>
+<ul>
+<li>3.0.3-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d8ec38f">d8ec38f</a>)</li>
+<li>Fix infinite scroll detection (<a href="https://github.com/kikobeats/uno-urban/commit/9bef535">9bef535</a>)</li>
+</ul>
+<p><a name="3.0.2-beta.0"></a></p>
+<h2 id="3.0.2-beta.0-(2016-02-24)">3.0.2-beta.0 (2016-02-24)</h2>
+<ul>
+<li>3.0.2-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/a708e43">a708e43</a>)</li>
+<li>Fix page view markup (<a href="https://github.com/kikobeats/uno-urban/commit/dd6b3e4">dd6b3e4</a>)</li>
+</ul>
+<p><a name="3.0.1-beta.0"></a></p>
+<h2 id="3.0.1-beta.0-(2016-02-24)">3.0.1-beta.0 (2016-02-24)</h2>
+<ul>
+<li>3.0.1-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/9a07ee2">9a07ee2</a>)</li>
+<li>Fix media-query (<a href="https://github.com/kikobeats/uno-urban/commit/8421620">8421620</a>)</li>
+</ul>
+<p><a name="3.0.0-beta.0"></a></p>
+<h1 id="3.0.0-beta.0-(2016-02-24)">3.0.0-beta.0 (2016-02-24)</h1>
+<ul>
+<li>3.0.0-beta.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d537337">d537337</a>)</li>
+<li>Add .InfiniteScroll (<a href="https://github.com/kikobeats/uno-urban/commit/48dd943">48dd943</a>)</li>
+<li>Add class for make easy be selected (<a href="https://github.com/kikobeats/uno-urban/commit/260ffb2">260ffb2</a>)</li>
+<li>Add dimmer mark hover helper (<a href="https://github.com/kikobeats/uno-urban/commit/2a7908e">2a7908e</a>)</li>
+<li>Adjust bold (<a href="https://github.com/kikobeats/uno-urban/commit/e92dabe">e92dabe</a>)</li>
+<li>adjust font base (<a href="https://github.com/kikobeats/uno-urban/commit/2bfbadc">2bfbadc</a>)</li>
+<li>Adjust forms (<a href="https://github.com/kikobeats/uno-urban/commit/52b7899">52b7899</a>)</li>
+<li>Adjust pagination style (<a href="https://github.com/kikobeats/uno-urban/commit/8df6371">8df6371</a>)</li>
+<li>Adjust placeholder text (<a href="https://github.com/kikobeats/uno-urban/commit/a5f48d2">a5f48d2</a>)</li>
+<li>Adjust scroll (<a href="https://github.com/kikobeats/uno-urban/commit/1f0a816">1f0a816</a>)</li>
+<li>Apply infinite scroll just for paged views (<a href="https://github.com/kikobeats/uno-urban/commit/e3b5ff4">e3b5ff4</a>)</li>
+<li>Apply same index view for tags (<a href="https://github.com/kikobeats/uno-urban/commit/5bb8c58">5bb8c58</a>)</li>
+<li>Avoid vendors (<a href="https://github.com/kikobeats/uno-urban/commit/222d2a2">222d2a2</a>)</li>
+<li>Awesome related post style (<a href="https://github.com/kikobeats/uno-urban/commit/0dd1177">0dd1177</a>)</li>
+<li>Better text shadow helper (<a href="https://github.com/kikobeats/uno-urban/commit/34ba951">34ba951</a>)</li>
+<li>Delete hardcore code (<a href="https://github.com/kikobeats/uno-urban/commit/0ec687d">0ec687d</a>)</li>
+<li>Fix apply effect for paged views (<a href="https://github.com/kikobeats/uno-urban/commit/53d3f73">53d3f73</a>)</li>
+<li>fix build (<a href="https://github.com/kikobeats/uno-urban/commit/6ed5cb2">6ed5cb2</a>)</li>
+<li>Fix build (<a href="https://github.com/kikobeats/uno-urban/commit/26cd27a">26cd27a</a>)</li>
+<li>Fix hover effect in home boxes (<a href="https://github.com/kikobeats/uno-urban/commit/57cfc8f">57cfc8f</a>)</li>
+<li>Fix travis (<a href="https://github.com/kikobeats/uno-urban/commit/1392630">1392630</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/33eb464">33eb464</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/ae4620a">ae4620a</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/2c0d86e">2c0d86e</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/3089cbb">3089cbb</a>)</li>
+<li>Flat design (<a href="https://github.com/kikobeats/uno-urban/commit/fd5a6af">fd5a6af</a>)</li>
+<li>improve template (<a href="https://github.com/kikobeats/uno-urban/commit/45ca19d">45ca19d</a>)</li>
+<li>Little change on a:hover style (<a href="https://github.com/kikobeats/uno-urban/commit/c3d2e7d">c3d2e7d</a>)</li>
+<li>Little improvements (<a href="https://github.com/kikobeats/uno-urban/commit/cf802dd">cf802dd</a>)</li>
+<li>Make infinite and posts headline configurable (<a href="https://github.com/kikobeats/uno-urban/commit/aff9d40">aff9d40</a>)</li>
+<li>More general selector (<a href="https://github.com/kikobeats/uno-urban/commit/1cf8afc">1cf8afc</a>)</li>
+<li>No border, flat style (<a href="https://github.com/kikobeats/uno-urban/commit/0828a3d">0828a3d</a>)</li>
+<li>No more necessary. Confuse. (<a href="https://github.com/kikobeats/uno-urban/commit/1c65f7b">1c65f7b</a>)</li>
+<li>Notes for the future (<a href="https://github.com/kikobeats/uno-urban/commit/02b68ec">02b68ec</a>)</li>
+<li>Refactor (<a href="https://github.com/kikobeats/uno-urban/commit/a45fac1">a45fac1</a>)</li>
+<li>Refactor font style (<a href="https://github.com/kikobeats/uno-urban/commit/51726a4">51726a4</a>)</li>
+<li>Refactor post view (<a href="https://github.com/kikobeats/uno-urban/commit/585d4c5">585d4c5</a>)</li>
+<li>refactor posts views based on ids (<a href="https://github.com/kikobeats/uno-urban/commit/549164c">549164c</a>)</li>
+<li>Refactor reading content (<a href="https://github.com/kikobeats/uno-urban/commit/66cdb39">66cdb39</a>)</li>
+<li>Remove npm publish (<a href="https://github.com/kikobeats/uno-urban/commit/92aad95">92aad95</a>)</li>
+<li>Remove unnecessary (<a href="https://github.com/kikobeats/uno-urban/commit/66f0bfb">66f0bfb</a>)</li>
+<li>Removed Unnecessary (<a href="https://github.com/kikobeats/uno-urban/commit/bceb60c">bceb60c</a>)</li>
+<li>Same space for top and bottom (<a href="https://github.com/kikobeats/uno-urban/commit/eb8302c">eb8302c</a>)</li>
+<li>Setup default z-index (<a href="https://github.com/kikobeats/uno-urban/commit/0d93c5f">0d93c5f</a>)</li>
+<li>Update (<a href="https://github.com/kikobeats/uno-urban/commit/c3cb25e">c3cb25e</a>)</li>
+<li>Update conditional selectors (<a href="https://github.com/kikobeats/uno-urban/commit/ad781a1">ad781a1</a>)</li>
+<li>Update markup (<a href="https://github.com/kikobeats/uno-urban/commit/c79f620">c79f620</a>)</li>
+<li>Update settings (<a href="https://github.com/kikobeats/uno-urban/commit/da799ec">da799ec</a>)</li>
+<li>upgrade node (<a href="https://github.com/kikobeats/uno-urban/commit/90e3564">90e3564</a>)</li>
+<li>Use font-weight keywods to reference font style (<a href="https://github.com/kikobeats/uno-urban/commit/cb9fb74">cb9fb74</a>)</li>
+<li>use search based of google engine (<a href="https://github.com/kikobeats/uno-urban/commit/595a744">595a744</a>)</li>
+</ul>
+<p><a name="2.7.3"></a></p>
+<h2 id="2.7.3-(2016-02-02)">2.7.3 (2016-02-02)</h2>
+<ul>
+<li>2.7.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d4ab6cd">d4ab6cd</a>)</li>
+<li>Adjust cover margins (<a href="https://github.com/kikobeats/uno-urban/commit/e9d257f">e9d257f</a>)</li>
+<li>Adjust sidebar margins (<a href="https://github.com/kikobeats/uno-urban/commit/7e7ca13">7e7ca13</a>)</li>
+<li>move into scripts (<a href="https://github.com/kikobeats/uno-urban/commit/72e9522">72e9522</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/e4ca41a">e4ca41a</a>)</li>
+</ul>
+<p><a name="2.7.2"></a></p>
+<h2 id="2.7.2-(2016-01-19)">2.7.2 (2016-01-19)</h2>
+<ul>
+<li>2.7.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/275a187">275a187</a>)</li>
+<li>Fic W3C Validations (<a href="https://github.com/kikobeats/uno-urban/commit/7a45489">7a45489</a>)</li>
+<li>Move external font into link tag (<a href="https://github.com/kikobeats/uno-urban/commit/cb1869a">cb1869a</a>)</li>
+</ul>
+<p><a name="2.7.1"></a></p>
+<h2 id="2.7.1-(2016-01-19)">2.7.1 (2016-01-19)</h2>
+<ul>
+<li>2.7.1 releases (<a href="https://github.com/kikobeats/uno-urban/commit/27fe347">27fe347</a>)</li>
+<li>edit readme for clarity (<a href="https://github.com/kikobeats/uno-urban/commit/0dc5cb5">0dc5cb5</a>)</li>
+<li>fix grammar errors and edit for clarity (<a href="https://github.com/kikobeats/uno-urban/commit/524df2a">524df2a</a>)</li>
+<li>Fix highlights code blocks (<a href="https://github.com/kikobeats/uno-urban/commit/220e75c">220e75c</a>)</li>
+<li>Merge pull request #171 from martinms-usc/master (<a href="https://github.com/kikobeats/uno-urban/commit/fa245d0">fa245d0</a>)</li>
+</ul>
+<p><a name="2.7.0"></a></p>
+<h1 id="2.7.0-(2016-01-09)">2.7.0 (2016-01-09)</h1>
+<ul>
+<li>2.7.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/e36ef50">e36ef50</a>)</li>
+<li>Add <a href="http://4ts.io">4ts.io</a> blog as a showcase (<a href="https://github.com/kikobeats/uno-urban/commit/3e60322">3e60322</a>)</li>
+<li>Add travis (<a href="https://github.com/kikobeats/uno-urban/commit/ef69dac">ef69dac</a>)</li>
+<li>Add travis tests (<a href="https://github.com/kikobeats/uno-urban/commit/a09c269">a09c269</a>)</li>
+<li>Delete unnecessary css (<a href="https://github.com/kikobeats/uno-urban/commit/c7b5936">c7b5936</a>)</li>
+<li>Little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/349ff87">349ff87</a>)</li>
+<li>Little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/11a62e5">11a62e5</a>)</li>
+<li>Merge pull request #164 from apolikamixitos/master (<a href="https://github.com/kikobeats/uno-urban/commit/0b3c5b1">0b3c5b1</a>)</li>
+<li>Merge pull request #168 from waja/post_list_headline (<a href="https://github.com/kikobeats/uno-urban/commit/c43f0dc">c43f0dc</a>)</li>
+<li>Replace the https with http of <a href="http://4ts.io">4ts.io</a> blog (<a href="https://github.com/kikobeats/uno-urban/commit/7d7bf0f">7d7bf0f</a>)</li>
+<li>This makes the headline of the post list page customizable. (<a href="https://github.com/kikobeats/uno-urban/commit/e81896c">e81896c</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/166">#166</a></li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/a0b0185">a0b0185</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/260960d">260960d</a>)</li>
+<li>Update showcase section (<a href="https://github.com/kikobeats/uno-urban/commit/4fceeab">4fceeab</a>)</li>
+<li>Update <a href="http://SHOWCASE.md">SHOWCASE.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/a48fb41">a48fb41</a>)</li>
+<li>Update <a href="http://SHOWCASE.md">SHOWCASE.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/108285f">108285f</a>)</li>
+<li>Update <a href="http://SHOWCASE.md">SHOWCASE.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/0727494">0727494</a>)</li>
+</ul>
+<p><a name="2.6.10"></a></p>
+<h2 id="2.6.10-(2016-01-06)">2.6.10 (2016-01-06)</h2>
+<ul>
+<li>2.6.10 releases (<a href="https://github.com/kikobeats/uno-urban/commit/231370f">231370f</a>)</li>
+<li>Add gulp-shortand dep (<a href="https://github.com/kikobeats/uno-urban/commit/3e46534">3e46534</a>)</li>
+<li>Add Related section (<a href="https://github.com/kikobeats/uno-urban/commit/c35a0d3">c35a0d3</a>)</li>
+<li>Add Setup section (<a href="https://github.com/kikobeats/uno-urban/commit/01073c1">01073c1</a>)</li>
+<li>Adjust prism build (<a href="https://github.com/kikobeats/uno-urban/commit/7bdbdc6">7bdbdc6</a>)</li>
+<li>Better JS minification (<a href="https://github.com/kikobeats/uno-urban/commit/c68fa03">c68fa03</a>)</li>
+<li>Fix typo (<a href="https://github.com/kikobeats/uno-urban/commit/a6fedf8">a6fedf8</a>)</li>
+<li>Refactor footer (<a href="https://github.com/kikobeats/uno-urban/commit/7219ada">7219ada</a>)</li>
+<li>Remove unnecessary dependency (<a href="https://github.com/kikobeats/uno-urban/commit/3da45d5">3da45d5</a>)</li>
+</ul>
+<p><a name="2.6.9"></a></p>
+<h2 id="2.6.9-(2015-12-31)">2.6.9 (2015-12-31)</h2>
+<ul>
+<li>2.6.9 releases (<a href="https://github.com/kikobeats/uno-urban/commit/57f63f8">57f63f8</a>)</li>
+<li>Add default static page template (<a href="https://github.com/kikobeats/uno-urban/commit/0d102d8">0d102d8</a>)</li>
+<li>Added brief description of <a href="http://build.sh">build.sh</a> script. (<a href="https://github.com/kikobeats/uno-urban/commit/e6420f8">e6420f8</a>)</li>
+<li>Added build script to create archive for usage with Ghost(pro). (<a href="https://github.com/kikobeats/uno-urban/commit/bb67bc5">bb67bc5</a>)</li>
+<li>Merge pull request #157 from devillex/kikobeats-master (<a href="https://github.com/kikobeats/uno-urban/commit/3225bd2">3225bd2</a>)</li>
+</ul>
+<p><a name="2.6.8"></a></p>
+<h2 id="2.6.8-(2015-12-30)">2.6.8 (2015-12-30)</h2>
+<ul>
+<li>2.6.8 releases (<a href="https://github.com/kikobeats/uno-urban/commit/62bf4d2">62bf4d2</a>)</li>
+<li>Extract post-author into a partial (<a href="https://github.com/kikobeats/uno-urban/commit/430f4f3">430f4f3</a>)</li>
+<li>Fix #153 (<a href="https://github.com/kikobeats/uno-urban/commit/d63d508">d63d508</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/153">#153</a></li>
+</ul>
+<p><a name="2.6.7"></a></p>
+<h2 id="2.6.7-(2015-12-28)">2.6.7 (2015-12-28)</h2>
+<ul>
+<li>2.6.7 releases (<a href="https://github.com/kikobeats/uno-urban/commit/71db207">71db207</a>)</li>
+<li>Fix #151 (<a href="https://github.com/kikobeats/uno-urban/commit/b4337d1">b4337d1</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/151">#151</a></li>
+</ul>
+<p><a name="2.6.6"></a></p>
+<h2 id="2.6.6-(2015-12-26)">2.6.6 (2015-12-26)</h2>
+<ul>
+<li>2.6.6 releases (<a href="https://github.com/kikobeats/uno-urban/commit/ed1553a">ed1553a</a>)</li>
+<li>Removed wait for DOM (<a href="https://github.com/kikobeats/uno-urban/commit/6f5e8f2">6f5e8f2</a>)</li>
+<li>Update to include inline version (<a href="https://github.com/kikobeats/uno-urban/commit/9c9e757">9c9e757</a>)</li>
+</ul>
+<p><a name="2.6.5"></a></p>
+<h2 id="2.6.5-(2015-12-22)">2.6.5 (2015-12-22)</h2>
+<ul>
+<li>_mixins.scss doesn&apos;t exist.  The variables $cover-primary and $cover-secondary are in _variables.scs (<a href="https://github.com/kikobeats/uno-urban/commit/f4ac947">f4ac947</a>)</li>
+<li>2.6.5 releases (<a href="https://github.com/kikobeats/uno-urban/commit/06cf240">06cf240</a>)</li>
+<li>Fix timeAgo function (<a href="https://github.com/kikobeats/uno-urban/commit/398e691">398e691</a>)</li>
+<li>Merge pull request #146 from alexlovescoding/patch-1 (<a href="https://github.com/kikobeats/uno-urban/commit/49ae326">49ae326</a>)</li>
+<li>Remove twemoji (<a href="https://github.com/kikobeats/uno-urban/commit/161bd5c">161bd5c</a>)</li>
+<li>Update <a href="http://DOCUMENTATION.md">DOCUMENTATION.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/04f89a1">04f89a1</a>)</li>
+</ul>
+<p><a name="2.6.4"></a></p>
+<h2 id="2.6.4-(2015-12-16)">2.6.4 (2015-12-16)</h2>
+<ul>
+<li>2.6.4 releases (<a href="https://github.com/kikobeats/uno-urban/commit/09500d9">09500d9</a>)</li>
+<li>2.6.4 releases (<a href="https://github.com/kikobeats/uno-urban/commit/3662203">3662203</a>)</li>
+</ul>
+<p><a name="2.6.3"></a></p>
+<h2 id="2.6.3-(2015-12-13)">2.6.3 (2015-12-13)</h2>
+<ul>
+<li>2.6.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/51476d9">51476d9</a>)</li>
+<li>Add mail template (<a href="https://github.com/kikobeats/uno-urban/commit/c70fe70">c70fe70</a>)</li>
+<li>Add Zepto as recommendation (#144) (<a href="https://github.com/kikobeats/uno-urban/commit/03b3d61">03b3d61</a>)</li>
+<li>Fix #140 (<a href="https://github.com/kikobeats/uno-urban/commit/191ac93">191ac93</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/140">#140</a></li>
+<li>Update <a href="http://DOCUMENTATION.md">DOCUMENTATION.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/f308683">f308683</a>)</li>
+</ul>
+<p><a name="2.6.2"></a></p>
+<h2 id="2.6.2-(2015-12-10)">2.6.2 (2015-12-10)</h2>
+<ul>
+<li>2.6.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/20c2774">20c2774</a>)</li>
+<li>added prism (<a href="https://github.com/kikobeats/uno-urban/commit/c1a2371">c1a2371</a>)</li>
+<li>Adjust margins and deleted duplicated rules (<a href="https://github.com/kikobeats/uno-urban/commit/2c081fe">2c081fe</a>)</li>
+</ul>
+<p><a name="2.6.1"></a></p>
+<h2 id="2.6.1-(2015-12-04)">2.6.1 (2015-12-04)</h2>
+<ul>
+<li>2.6.1 releases (<a href="https://github.com/kikobeats/uno-urban/commit/fa953e3">fa953e3</a>)</li>
+<li>fixed highlight syntax for non detected language (<a href="https://github.com/kikobeats/uno-urban/commit/abb2212">abb2212</a>)</li>
+</ul>
+<p><a name="2.6.0"></a></p>
+<h1 id="2.6.0-(2015-12-03)">2.6.0 (2015-12-03)</h1>
+<ul>
+<li>2.6.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/7e6736a">7e6736a</a>)</li>
+<li>adjust blockquotes margins (<a href="https://github.com/kikobeats/uno-urban/commit/4ae9f7e">4ae9f7e</a>)</li>
+<li>deleted some duplicate rules and format files (<a href="https://github.com/kikobeats/uno-urban/commit/3851935">3851935</a>)</li>
+<li>improved mobile view (<a href="https://github.com/kikobeats/uno-urban/commit/6ab6ad5">6ab6ad5</a>)</li>
+<li>Merge pull request #135 from Kikobeats/beta (<a href="https://github.com/kikobeats/uno-urban/commit/ce0ac71">ce0ac71</a>)</li>
+<li>updated bumped settings (<a href="https://github.com/kikobeats/uno-urban/commit/5a911c6">5a911c6</a>)</li>
+</ul>
+<p><a name="2.6.0-rc.4"></a></p>
+<h1 id="2.6.0-rc.4-(2015-11-23)">2.6.0-rc.4 (2015-11-23)</h1>
+<ul>
+<li>Added node version badge (<a href="https://github.com/kikobeats/uno-urban/commit/efa7ba4">efa7ba4</a>)</li>
+<li>added to automatically change the version (<a href="https://github.com/kikobeats/uno-urban/commit/997cfa0">997cfa0</a>)</li>
+<li>little improvement in inline code style (<a href="https://github.com/kikobeats/uno-urban/commit/1a0c6db">1a0c6db</a>)</li>
+<li>refactor margins and font from titles (<a href="https://github.com/kikobeats/uno-urban/commit/8dec9ea">8dec9ea</a>)</li>
+<li>refactor margins to be constant (<a href="https://github.com/kikobeats/uno-urban/commit/7a003fb">7a003fb</a>)</li>
+<li>refactor prism theme to be similar to github gist (<a href="https://github.com/kikobeats/uno-urban/commit/dc65f71">dc65f71</a>)</li>
+<li>refactor quotes style (<a href="https://github.com/kikobeats/uno-urban/commit/3362c0b">3362c0b</a>)</li>
+</ul>
+<p><a name="2.6.0-rc.3"></a></p>
+<h1 id="2.6.0-rc.3-(2015-11-20)">2.6.0-rc.3 (2015-11-20)</h1>
+<ul>
+<li>Fixed #124 (<a href="https://github.com/kikobeats/uno-urban/commit/fca6b83">fca6b83</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/124">#124</a></li>
+<li>Tag view similar to index view (<a href="https://github.com/kikobeats/uno-urban/commit/3f2160c">3f2160c</a>)</li>
+</ul>
+<p><a name="2.6.0-rc.2"></a></p>
+<h1 id="2.6.0-rc.2-(2015-11-15)">2.6.0-rc.2 (2015-11-15)</h1>
+<ul>
+<li>2.6.0-rc.2 (<a href="https://github.com/kikobeats/uno-urban/commit/427d429">427d429</a>)</li>
+<li>add prism as dependency (<a href="https://github.com/kikobeats/uno-urban/commit/2f8aaf5">2f8aaf5</a>)</li>
+<li>Added twemoji as dependency (<a href="https://github.com/kikobeats/uno-urban/commit/f150cdc">f150cdc</a>)</li>
+<li>adjust breadcrumbs on mobile (<a href="https://github.com/kikobeats/uno-urban/commit/673d0af">673d0af</a>)</li>
+<li>adjust margins...again. (<a href="https://github.com/kikobeats/uno-urban/commit/570d08c">570d08c</a>)</li>
+<li>adjust padding in links (<a href="https://github.com/kikobeats/uno-urban/commit/b77b378">b77b378</a>)</li>
+<li>adjust post list media queries (<a href="https://github.com/kikobeats/uno-urban/commit/58fa32d">58fa32d</a>)</li>
+<li>adjust read time for post lists (<a href="https://github.com/kikobeats/uno-urban/commit/fad1086">fad1086</a>)</li>
+<li>be posible to setup a different open button (<a href="https://github.com/kikobeats/uno-urban/commit/af17af5">af17af5</a>)</li>
+<li>changed twitter share link. Fixed #108 (<a href="https://github.com/kikobeats/uno-urban/commit/014dac8">014dac8</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/108">#108</a></li>
+<li>first approach of posts (<a href="https://github.com/kikobeats/uno-urban/commit/c33125d">c33125d</a>)</li>
+<li>fixed #114 #112 #111 #109 (<a href="https://github.com/kikobeats/uno-urban/commit/86dc8e0">86dc8e0</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/114">#114</a> <a href="https://github.com/kikobeats/uno-urban/issues/112">#112</a> <a href="https://github.com/kikobeats/uno-urban/issues/111">#111</a> <a href="https://github.com/kikobeats/uno-urban/issues/109">#109</a></li>
+<li>fixed pagination extra space (<a href="https://github.com/kikobeats/uno-urban/commit/561d5a4">561d5a4</a>)</li>
+<li>fixed post list margins (<a href="https://github.com/kikobeats/uno-urban/commit/fe7a001">fe7a001</a>)</li>
+<li>improved a:hover style (<a href="https://github.com/kikobeats/uno-urban/commit/e8610a4">e8610a4</a>)</li>
+<li>mark and selection color based in $secondary-color (<a href="https://github.com/kikobeats/uno-urban/commit/3810a2c">3810a2c</a>)</li>
+<li>Merge pull request #105 from foorb/patch-1 (<a href="https://github.com/kikobeats/uno-urban/commit/42a4631">42a4631</a>)</li>
+<li>Merge pull request #113 from foorb/master (<a href="https://github.com/kikobeats/uno-urban/commit/7c83395">7c83395</a>)</li>
+<li>Merge pull request #127 from foorb/master (<a href="https://github.com/kikobeats/uno-urban/commit/ddc76a3">ddc76a3</a>)</li>
+<li>mixins renamed into utils (<a href="https://github.com/kikobeats/uno-urban/commit/4747b0a">4747b0a</a>)</li>
+<li>Refactor meta tags in the same place (<a href="https://github.com/kikobeats/uno-urban/commit/244e9a5">244e9a5</a>)</li>
+<li>Update <a href="http://DOCUMENTATION.md">DOCUMENTATION.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/57953a2">57953a2</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/6ce84ef">6ce84ef</a>)</li>
+<li>Update showcase (<a href="https://github.com/kikobeats/uno-urban/commit/1e374cf">1e374cf</a>)</li>
+</ul>
+<p><a name="2.5.7"></a></p>
+<h2 id="2.5.7-(2015-10-11)">2.5.7 (2015-10-11)</h2>
+<ul>
+<li>2.5.7 releases (<a href="https://github.com/kikobeats/uno-urban/commit/3c54914">3c54914</a>)</li>
+<li>Fix some styles errors with the scroll bars (<a href="https://github.com/kikobeats/uno-urban/commit/2f3b578">2f3b578</a>)</li>
+<li>Merge pull request #101 from ManRueda/master (<a href="https://github.com/kikobeats/uno-urban/commit/95d0b8b">95d0b8b</a>)</li>
+<li>Merge pull request #103 from foorb/patch-1 (<a href="https://github.com/kikobeats/uno-urban/commit/ba968b1">ba968b1</a>)</li>
+<li>Merge pull request #104 from foorb/patch-2 (<a href="https://github.com/kikobeats/uno-urban/commit/c7a8ddf">c7a8ddf</a>)</li>
+<li>selection color (<a href="https://github.com/kikobeats/uno-urban/commit/d790df5">d790df5</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/4a012a3">4a012a3</a>)</li>
+</ul>
+<p><a name="2.5.6"></a></p>
+<h2 id="2.5.6-(2015-10-08)">2.5.6 (2015-10-08)</h2>
+<ul>
+<li>2.5.6 releases (<a href="https://github.com/kikobeats/uno-urban/commit/fd225da">fd225da</a>)</li>
+<li>Added IFTT recipe for know new releases (<a href="https://github.com/kikobeats/uno-urban/commit/936e4fd">936e4fd</a>)</li>
+<li>added scrollbar behavior. Adjusted z-index (<a href="https://github.com/kikobeats/uno-urban/commit/d3b998e">d3b998e</a>)</li>
+<li>added ToC (<a href="https://github.com/kikobeats/uno-urban/commit/0636bc2">0636bc2</a>)</li>
+<li>adjust aside shadow. Fixed #72 (<a href="https://github.com/kikobeats/uno-urban/commit/54a693e">54a693e</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/72">#72</a></li>
+<li>Adjusted aside behavior (<a href="https://github.com/kikobeats/uno-urban/commit/f46c266">f46c266</a>)</li>
+<li>compare operator (<a href="https://github.com/kikobeats/uno-urban/commit/65a3549">65a3549</a>)</li>
+<li>Fixed #97 (<a href="https://github.com/kikobeats/uno-urban/commit/b329940">b329940</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/97">#97</a></li>
+<li>improve install/update (<a href="https://github.com/kikobeats/uno-urban/commit/b7a01e6">b7a01e6</a>)</li>
+<li>little improvements (<a href="https://github.com/kikobeats/uno-urban/commit/30cad77">30cad77</a>)</li>
+<li>Merge pull request #98 from foorb/master (<a href="https://github.com/kikobeats/uno-urban/commit/1136f56">1136f56</a>)</li>
+<li>Merge pull request #99 from foorb/master (<a href="https://github.com/kikobeats/uno-urban/commit/3db5355">3db5355</a>)</li>
+<li>Merge remote-tracking branch &apos;Kikobeats/master&apos; (<a href="https://github.com/kikobeats/uno-urban/commit/16cb4d6">16cb4d6</a>)</li>
+<li>removed unnecessary file (<a href="https://github.com/kikobeats/uno-urban/commit/69f25ea">69f25ea</a>)</li>
+<li>update README (<a href="https://github.com/kikobeats/uno-urban/commit/3507855">3507855</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/b2fd76e">b2fd76e</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/6175a95">6175a95</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/c9c3254">c9c3254</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/c377cea">c377cea</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/61a84a3">61a84a3</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/83ca7ae">83ca7ae</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/5a19e2a">5a19e2a</a>)</li>
+<li>update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/4a61614">4a61614</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/d0a56f0">d0a56f0</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/714f4e3">714f4e3</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/7d594c4">7d594c4</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/ffc6d89">ffc6d89</a>)</li>
+</ul>
+<p><a name="2.5.5"></a></p>
+<h2 id="2.5.5-(2015-10-04)">2.5.5 (2015-10-04)</h2>
+<ul>
+<li>2.5.5 releases (<a href="https://github.com/kikobeats/uno-urban/commit/a3357b8">a3357b8</a>)</li>
+<li>adjust scripts (<a href="https://github.com/kikobeats/uno-urban/commit/0dfb6b2">0dfb6b2</a>)</li>
+<li>first commit (<a href="https://github.com/kikobeats/uno-urban/commit/92ba10b">92ba10b</a>)</li>
+<li>Fixed #88 (<a href="https://github.com/kikobeats/uno-urban/commit/696d98a">696d98a</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/88">#88</a></li>
+<li>Fixed #91 (<a href="https://github.com/kikobeats/uno-urban/commit/6be573b">6be573b</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/91">#91</a></li>
+<li>fixed #96 (<a href="https://github.com/kikobeats/uno-urban/commit/a5ea9e6">a5ea9e6</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/96">#96</a></li>
+<li>Fixed how to setup cover (<a href="https://github.com/kikobeats/uno-urban/commit/6decadc">6decadc</a>)</li>
+<li>git clone first (<a href="https://github.com/kikobeats/uno-urban/commit/d7f0a35">d7f0a35</a>)</li>
+<li>improve scripts (<a href="https://github.com/kikobeats/uno-urban/commit/cc04a44">cc04a44</a>)</li>
+<li>Merge pull request #93 from Loo7Oopeit/patch-1 (<a href="https://github.com/kikobeats/uno-urban/commit/07f741f">07f741f</a>)</li>
+<li>Merge pull request #94 from Loo7Oopeit/patch-2 (<a href="https://github.com/kikobeats/uno-urban/commit/974de7a">974de7a</a>)</li>
+<li>Update <a href="http://install.sh">install.sh</a> (<a href="https://github.com/kikobeats/uno-urban/commit/c388147">c388147</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/c2f05af">c2f05af</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/6fbb42b">6fbb42b</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/32e7bbc">32e7bbc</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/5339968">5339968</a>)</li>
+<li>using git https (<a href="https://github.com/kikobeats/uno-urban/commit/758acde">758acde</a>)</li>
+</ul>
+<p><a name="2.5.4"></a></p>
+<h2 id="2.5.4-(2015-09-24)">2.5.4 (2015-09-24)</h2>
+<ul>
+<li>2.5.4 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d5b0a40">d5b0a40</a>)</li>
+<li>Fixes #82 (<a href="https://github.com/kikobeats/uno-urban/commit/4beffad">4beffad</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/82">#82</a></li>
+<li>Fixes #84 (<a href="https://github.com/kikobeats/uno-urban/commit/1374e31">1374e31</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/84">#84</a></li>
+<li>order properties (<a href="https://github.com/kikobeats/uno-urban/commit/7ce8ab9">7ce8ab9</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/949ec4a">949ec4a</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/e5c7a73">e5c7a73</a>)</li>
+</ul>
+<p><a name="2.5.3"></a></p>
+<h2 id="2.5.3-(2015-09-18)">2.5.3 (2015-09-18)</h2>
+<ul>
+<li>2.5.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/1413b36">1413b36</a>)</li>
+<li>Added a note about how to inject jQuery (<a href="https://github.com/kikobeats/uno-urban/commit/b83c9ed">b83c9ed</a>)</li>
+<li>Added installation script (<a href="https://github.com/kikobeats/uno-urban/commit/fe12f5f">fe12f5f</a>)</li>
+<li>Fixed #77 (<a href="https://github.com/kikobeats/uno-urban/commit/50d01a2">50d01a2</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/77">#77</a></li>
+<li>little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/0fca530">0fca530</a>)</li>
+<li>Moved documentation section (<a href="https://github.com/kikobeats/uno-urban/commit/05a9f70">05a9f70</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/c0c0574">c0c0574</a>)</li>
+</ul>
+<p><a name="2.5.2"></a></p>
+<h2 id="2.5.2-(2015-09-11)">2.5.2 (2015-09-11)</h2>
+<ul>
+<li>2.5.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/e697c12">e697c12</a>)</li>
+<li>Fixed #50 (<a href="https://github.com/kikobeats/uno-urban/commit/074f743">074f743</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/50">#50</a></li>
+<li>Fixed #68 (<a href="https://github.com/kikobeats/uno-urban/commit/fe8b32d">fe8b32d</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/68">#68</a></li>
+<li>Fixes #70 (<a href="https://github.com/kikobeats/uno-urban/commit/7110954">7110954</a>), closes <a href="https://github.com/kikobeats/uno-urban/issues/70">#70</a></li>
+<li>jQuery injection from ghost_foot instead of inline (<a href="https://github.com/kikobeats/uno-urban/commit/1b2e852">1b2e852</a>)</li>
+</ul>
+<p><a name="2.5.1"></a></p>
+<h2 id="2.5.1-(2015-09-09)">2.5.1 (2015-09-09)</h2>
+<ul>
+<li>2.5.1 releases (<a href="https://github.com/kikobeats/uno-urban/commit/a7dab00">a7dab00</a>)</li>
+<li>fixed 404 page style (<a href="https://github.com/kikobeats/uno-urban/commit/60e2f18">60e2f18</a>)</li>
+</ul>
+<p><a name="2.5.0"></a></p>
+<h1 id="2.5.0-(2015-09-09)">2.5.0 (2015-09-09)</h1>
+<ul>
+<li>2.5.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/28bb310">28bb310</a>)</li>
+<li>added #64 and #65 into showcase (<a href="https://github.com/kikobeats/uno-urban/commit/5541b0d">5541b0d</a>)</li>
+<li>added jQuery dependency (<a href="https://github.com/kikobeats/uno-urban/commit/b8b815f">b8b815f</a>)</li>
+<li>fixed hamburguer button space in tablet (<a href="https://github.com/kikobeats/uno-urban/commit/10acd12">10acd12</a>)</li>
+<li>linted using CSSOrder (<a href="https://github.com/kikobeats/uno-urban/commit/9121c68">9121c68</a>)</li>
+<li>replace behavior for event (<a href="https://github.com/kikobeats/uno-urban/commit/43bf742">43bf742</a>)</li>
+<li>separated background from filter (<a href="https://github.com/kikobeats/uno-urban/commit/1beb4fe">1beb4fe</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/b7d8e7a">b7d8e7a</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/a0a162d">a0a162d</a>)</li>
+<li>updated information. Now compatible with Ghost 0.7 &#x1F389; (<a href="https://github.com/kikobeats/uno-urban/commit/fe343d1">fe343d1</a>)</li>
+</ul>
+<p><a name="2.4.0"></a></p>
+<h1 id="2.4.0-(2015-08-31)">2.4.0 (2015-08-31)</h1>
+<ul>
+<li>2.4.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/033fd58">033fd58</a>)</li>
+<li>Improve twitter share. rel me tag for social links (<a href="https://github.com/kikobeats/uno-urban/commit/eef7556">eef7556</a>)</li>
+</ul>
+<p><a name="2.3.5"></a></p>
+<h2 id="2.3.5-(2015-08-24)">2.3.5 (2015-08-24)</h2>
+<ul>
+<li>2.3.5 releases (<a href="https://github.com/kikobeats/uno-urban/commit/3ec3d83">3ec3d83</a>)</li>
+<li>Added gln blog (<a href="https://github.com/kikobeats/uno-urban/commit/e8887b1">e8887b1</a>)</li>
+<li>added iayon blog (<a href="https://github.com/kikobeats/uno-urban/commit/44db987">44db987</a>)</li>
+<li>Fixed navigation URLs (<a href="https://github.com/kikobeats/uno-urban/commit/fe64b69">fe64b69</a>)</li>
+<li>Merge pull request #54 from jcdenton/navigation_urls_fix (<a href="https://github.com/kikobeats/uno-urban/commit/58dc121">58dc121</a>)</li>
+<li>renamed partial links into navigation (<a href="https://github.com/kikobeats/uno-urban/commit/fdfc2bc">fdfc2bc</a>)</li>
+<li>search hover also for focus (<a href="https://github.com/kikobeats/uno-urban/commit/2f6905f">2f6905f</a>)</li>
+</ul>
+<p><a name="2.3.4"></a></p>
+<h2 id="2.3.4-(2015-08-15)">2.3.4 (2015-08-15)</h2>
+<ul>
+<li>2.3.4 releases (<a href="https://github.com/kikobeats/uno-urban/commit/8eba3af">8eba3af</a>)</li>
+<li>2.3.4 releases (again) (<a href="https://github.com/kikobeats/uno-urban/commit/ec8352c">ec8352c</a>)</li>
+<li>Add Blog link by default. (<a href="https://github.com/kikobeats/uno-urban/commit/1198895">1198895</a>)</li>
+<li>Added customize aside title and subtitle (<a href="https://github.com/kikobeats/uno-urban/commit/4755ace">4755ace</a>)</li>
+<li>disable multiaccount support by default (<a href="https://github.com/kikobeats/uno-urban/commit/82c91d4">82c91d4</a>)</li>
+<li>Improve multiaccount support (<a href="https://github.com/kikobeats/uno-urban/commit/2f71d11">2f71d11</a>)</li>
+<li>Improve twitter share link based in a url native helper. (<a href="https://github.com/kikobeats/uno-urban/commit/6328b03">6328b03</a>)</li>
+<li>Include URL as-is. (<a href="https://github.com/kikobeats/uno-urban/commit/533f796">533f796</a>)</li>
+<li>little details in title and readTime (<a href="https://github.com/kikobeats/uno-urban/commit/eb95489">eb95489</a>)</li>
+<li>Make Google Analytics and Disqus use variables from admin panel. (<a href="https://github.com/kikobeats/uno-urban/commit/2aebfbe">2aebfbe</a>)</li>
+<li>Merge pull request #47 from RReverser/out-of-the-box (<a href="https://github.com/kikobeats/uno-urban/commit/efcb4e3">efcb4e3</a>)</li>
+<li>removed dot from post title (<a href="https://github.com/kikobeats/uno-urban/commit/33786a5">33786a5</a>)</li>
+<li>removed dot from title (<a href="https://github.com/kikobeats/uno-urban/commit/64c6d4c">64c6d4c</a>)</li>
+<li>Revert author in aside (Ghost doesn&apos;t provide it for entire blog). (<a href="https://github.com/kikobeats/uno-urban/commit/9b26637">9b26637</a>)</li>
+<li>Update <a href="http://DOCUMENTATION.md">DOCUMENTATION.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/4aaa2ed">4aaa2ed</a>)</li>
+<li>Use blog title and author&apos;s name by default on main page. (<a href="https://github.com/kikobeats/uno-urban/commit/7ffad11">7ffad11</a>)</li>
+<li>Use links from Ghost navigation settings. (<a href="https://github.com/kikobeats/uno-urban/commit/4d9bfb3">4d9bfb3</a>)</li>
+</ul>
+<p><a name="2.3.3"></a></p>
+<h2 id="2.3.3-(2015-08-14)">2.3.3 (2015-08-14)</h2>
+<ul>
+<li>2.3.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/78603e5">78603e5</a>)</li>
+<li>Added robinz blog (<a href="https://github.com/kikobeats/uno-urban/commit/0508ca9">0508ca9</a>)</li>
+<li>main overflow based in a class instead of css inline (<a href="https://github.com/kikobeats/uno-urban/commit/ffa9893">ffa9893</a>)</li>
+<li>Merge branch &apos;robincsamuel-master&apos; (<a href="https://github.com/kikobeats/uno-urban/commit/4090e2b">4090e2b</a>)</li>
+</ul>
+<p><a name="2.3.2"></a></p>
+<h2 id="2.3.2-(2015-08-14)">2.3.2 (2015-08-14)</h2>
+<ul>
+<li>2.3.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/d2484ff">d2484ff</a>)</li>
+<li>added rel attribute in pagination elements (<a href="https://github.com/kikobeats/uno-urban/commit/530174e">530174e</a>)</li>
+</ul>
+<p><a name="2.3.1"></a></p>
+<h2 id="2.3.1-(2015-08-12)">2.3.1 (2015-08-12)</h2>
+<ul>
+<li>2.3.1 releases (<a href="https://github.com/kikobeats/uno-urban/commit/f953974">f953974</a>)</li>
+<li>compiled again (<a href="https://github.com/kikobeats/uno-urban/commit/b877428">b877428</a>)</li>
+<li>fixed little bug in blog button selector (<a href="https://github.com/kikobeats/uno-urban/commit/e9c9a5c">e9c9a5c</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/79546b7">79546b7</a>)</li>
+</ul>
+<p><a name="2.3.0"></a></p>
+<h1 id="2.3.0-(2015-08-07)">2.3.0 (2015-08-07)</h1>
+<ul>
+<li>2.3.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/0b04906">0b04906</a>)</li>
+<li>added next and prev buttons (<a href="https://github.com/kikobeats/uno-urban/commit/3c1ddd2">3c1ddd2</a>)</li>
+<li>adjust error page margins (<a href="https://github.com/kikobeats/uno-urban/commit/cb39bef">cb39bef</a>)</li>
+</ul>
+<p><a name="2.2.7"></a></p>
+<h2 id="2.2.7-(2015-08-07)">2.2.7 (2015-08-07)</h2>
+<ul>
+<li>2.2.7 releases (<a href="https://github.com/kikobeats/uno-urban/commit/f02fd1f">f02fd1f</a>)</li>
+<li>better way to generate post font size and margins (<a href="https://github.com/kikobeats/uno-urban/commit/49a6e49">49a6e49</a>)</li>
+<li>little improvements (<a href="https://github.com/kikobeats/uno-urban/commit/d23b3aa">d23b3aa</a>)</li>
+</ul>
+<p><a name="2.2.6"></a></p>
+<h2 id="2.2.6-(2015-08-07)">2.2.6 (2015-08-07)</h2>
+<ul>
+<li>2.2.6 releases (<a href="https://github.com/kikobeats/uno-urban/commit/635d176">635d176</a>)</li>
+<li>fixed code block in lists (<a href="https://github.com/kikobeats/uno-urban/commit/dd734bd">dd734bd</a>)</li>
+<li>Merge pull request #41 from Kikobeats/list_code_block (<a href="https://github.com/kikobeats/uno-urban/commit/47e8622">47e8622</a>)</li>
+<li>updated preview (<a href="https://github.com/kikobeats/uno-urban/commit/325b602">325b602</a>)</li>
+</ul>
+<p><a name="2.2.5"></a></p>
+<h2 id="2.2.5-(2015-08-02)">2.2.5 (2015-08-02)</h2>
+<ul>
+<li>2.2.5 releases (<a href="https://github.com/kikobeats/uno-urban/commit/8ff45c8">8ff45c8</a>)</li>
+<li>added bumped settings for the next time (<a href="https://github.com/kikobeats/uno-urban/commit/2dce395">2dce395</a>)</li>
+<li>new look &#x1F484; and little refactor &#x1F60E; (<a href="https://github.com/kikobeats/uno-urban/commit/829208c">829208c</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/a77f336">a77f336</a>)</li>
+</ul>
+<p><a name="2.2.4"></a></p>
+<h2 id="2.2.4-(2015-07-24)">2.2.4 (2015-07-24)</h2>
+<ul>
+<li>2.2.4 releases. (<a href="https://github.com/kikobeats/uno-urban/commit/e70b282">e70b282</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/67b0e80">67b0e80</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/0ebd385">0ebd385</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/9e710fc">9e710fc</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/d39172f">d39172f</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/e229e5b">e229e5b</a>)</li>
+</ul>
+<p><a name="2.2.3"></a></p>
+<h2 id="2.2.3-(2015-06-19)">2.2.3 (2015-06-19)</h2>
+<ul>
+<li>2.2.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/c2bc650">c2bc650</a>)</li>
+<li>Fixes overflow below 1024px (<a href="https://github.com/kikobeats/uno-urban/commit/d598d74">d598d74</a>)</li>
+<li>Merge pull request #28 from kutyel/overflow (<a href="https://github.com/kikobeats/uno-urban/commit/1177c24">1177c24</a>)</li>
+</ul>
+<p><a name="2.2.2"></a></p>
+<h2 id="2.2.2-(2015-06-12)">2.2.2 (2015-06-12)</h2>
+<ul>
+<li>2.2.2 releases (<a href="https://github.com/kikobeats/uno-urban/commit/07a1486">07a1486</a>)</li>
+<li>added moar blogs into showcase &#x1F64C; (<a href="https://github.com/kikobeats/uno-urban/commit/ec5edcf">ec5edcf</a>)</li>
+<li>Fix profile center in IE (<a href="https://github.com/kikobeats/uno-urban/commit/55a04ad">55a04ad</a>)</li>
+<li>Merge pull request #27 from kutyel/explorer (<a href="https://github.com/kikobeats/uno-urban/commit/91d3af0">91d3af0</a>)</li>
+<li>Update <a href="http://DOCUMENTATION.md">DOCUMENTATION.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/34b14f2">34b14f2</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/a355ab0">a355ab0</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/5c72df8">5c72df8</a>)</li>
+</ul>
+<p><a name="2.2.1"></a></p>
+<h2 id="2.2.1-(2015-05-17)">2.2.1 (2015-05-17)</h2>
+<ul>
+<li>2.2.1 releases &#x2013; added about template and fixed little issues (<a href="https://github.com/kikobeats/uno-urban/commit/1181e34">1181e34</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/409b3de">409b3de</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/be6bdae">be6bdae</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/64b5b43">64b5b43</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/f8b9c6f">f8b9c6f</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/64febfb">64febfb</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/a1b9f83">a1b9f83</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/d284104">d284104</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/a3226c5">a3226c5</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/cc485a7">cc485a7</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/e71f2a9">e71f2a9</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/b0f6b2f">b0f6b2f</a>)</li>
+</ul>
+<p><a name="2.2.0"></a></p>
+<h1 id="2.2.0-(2015-05-02)">2.2.0 (2015-05-02)</h1>
+<ul>
+<li>2.2.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/657b473">657b473</a>)</li>
+<li>avoid animate cover in blog post (<a href="https://github.com/kikobeats/uno-urban/commit/34daa8b">34daa8b</a>)</li>
+<li>improved aside behavior (<a href="https://github.com/kikobeats/uno-urban/commit/c0b8897">c0b8897</a>)</li>
+<li>only use blank target in blog links in desktop version (<a href="https://github.com/kikobeats/uno-urban/commit/c909eae">c909eae</a>)</li>
+<li>revert email from author (<a href="https://github.com/kikobeats/uno-urban/commit/8c350bd">8c350bd</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/d9f9ad4">d9f9ad4</a>)</li>
+</ul>
+<p><a name="2.1.3"></a></p>
+<h2 id="2.1.3-(2015-04-10)">2.1.3 (2015-04-10)</h2>
+<ul>
+<li>2.1.3 releases (<a href="https://github.com/kikobeats/uno-urban/commit/1465f05">1465f05</a>)</li>
+<li>fixed blog button behavior under mobile/tablet (<a href="https://github.com/kikobeats/uno-urban/commit/b4f9ce6">b4f9ce6</a>)</li>
+</ul>
+<p><a name="2.1.2"></a></p>
+<h2 id="2.1.2-(2015-04-02)">2.1.2 (2015-04-02)</h2>
+<ul>
+<li>first commit (<a href="https://github.com/kikobeats/uno-urban/commit/5406ac6">5406ac6</a>)</li>
+<li>fixed encode url in twitter share button (<a href="https://github.com/kikobeats/uno-urban/commit/698f48b">698f48b</a>)</li>
+<li>post video are now responsive (<a href="https://github.com/kikobeats/uno-urban/commit/8040c5f">8040c5f</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/e09dc1d">e09dc1d</a>)</li>
+</ul>
+<p><a name="2.1.1"></a></p>
+<h2 id="2.1.1-(2015-03-20)">2.1.1 (2015-03-20)</h2>
+<ul>
+<li>added gittip (<a href="https://github.com/kikobeats/uno-urban/commit/61d4e30">61d4e30</a>)</li>
+<li>added showcase section (<a href="https://github.com/kikobeats/uno-urban/commit/eff30a1">eff30a1</a>)</li>
+<li>fixed links style in list inside post view (<a href="https://github.com/kikobeats/uno-urban/commit/90a14de">90a14de</a>)</li>
+<li>fixed styleguide link (<a href="https://github.com/kikobeats/uno-urban/commit/5fd5273">5fd5273</a>)</li>
+<li>some improves (<a href="https://github.com/kikobeats/uno-urban/commit/157c02b">157c02b</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/8f42f36">8f42f36</a>)</li>
+<li>updated (<a href="https://github.com/kikobeats/uno-urban/commit/cc6d866">cc6d866</a>)</li>
+</ul>
+<p><a name="2.1.0"></a></p>
+<h1 id="2.1.0-(2015-03-08)">2.1.0 (2015-03-08)</h1>
+<ul>
+<li>2.1.0 releases (<a href="https://github.com/kikobeats/uno-urban/commit/05579f1">05579f1</a>)</li>
+<li>added support for more buttons (<a href="https://github.com/kikobeats/uno-urban/commit/16c807e">16c807e</a>)</li>
+<li>fixed link style in post without affect tags (<a href="https://github.com/kikobeats/uno-urban/commit/e1183dd">e1183dd</a>)</li>
+<li>improve aside (<a href="https://github.com/kikobeats/uno-urban/commit/5da32fb">5da32fb</a>)</li>
+<li>merged (<a href="https://github.com/kikobeats/uno-urban/commit/2faf9df">2faf9df</a>)</li>
+</ul>
+<p><a name="2.0.3"></a></p>
+<h2 id="2.0.3-(2015-03-08)">2.0.3 (2015-03-08)</h2>
+<ul>
+<li>deleted unnecessary button (<a href="https://github.com/kikobeats/uno-urban/commit/7a35681">7a35681</a>)</li>
+<li>experimenting (<a href="https://github.com/kikobeats/uno-urban/commit/5836cfe">5836cfe</a>)</li>
+<li>fixed a style in list elements (<a href="https://github.com/kikobeats/uno-urban/commit/e66c9e6">e66c9e6</a>)</li>
+<li>little improvements (<a href="https://github.com/kikobeats/uno-urban/commit/0a9cd91">0a9cd91</a>)</li>
+</ul>
+<p><a name="2.0.2"></a></p>
+<h2 id="2.0.2-(2015-02-27)">2.0.2 (2015-02-27)</h2>
+<ul>
+<li>2.0.2 released (<a href="https://github.com/kikobeats/uno-urban/commit/cd1d5c6">cd1d5c6</a>)</li>
+<li>fixed responsive tags in mobile (<a href="https://github.com/kikobeats/uno-urban/commit/5b525e8">5b525e8</a>)</li>
+<li>fixed tags in post view under mobile (<a href="https://github.com/kikobeats/uno-urban/commit/f950a01">f950a01</a>)</li>
+<li>refactor mobile behavior (<a href="https://github.com/kikobeats/uno-urban/commit/ba8b428">ba8b428</a>)</li>
+<li>Update aside.hbs (<a href="https://github.com/kikobeats/uno-urban/commit/90cd34a">90cd34a</a>)</li>
+<li>Update main.coffee (<a href="https://github.com/kikobeats/uno-urban/commit/72ed9cf">72ed9cf</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/5622963">5622963</a>)</li>
+</ul>
+<p><a name="2.0.1"></a></p>
+<h2 id="2.0.1-(2015-02-26)">2.0.1 (2015-02-26)</h2>
+<ul>
+<li>adjust separator (<a href="https://github.com/kikobeats/uno-urban/commit/d2c82a4">d2c82a4</a>)</li>
+<li>deleted unnecessary dependencies (<a href="https://github.com/kikobeats/uno-urban/commit/b002d24">b002d24</a>)</li>
+<li>deleted unnecessary file (<a href="https://github.com/kikobeats/uno-urban/commit/3378763">3378763</a>)</li>
+<li>fixed some little issues (<a href="https://github.com/kikobeats/uno-urban/commit/f387745">f387745</a>)</li>
+<li>fixing spaces in aside (<a href="https://github.com/kikobeats/uno-urban/commit/92466d0">92466d0</a>)</li>
+<li>Improved device experience (<a href="https://github.com/kikobeats/uno-urban/commit/c61dd55">c61dd55</a>)</li>
+<li>improved documentation (<a href="https://github.com/kikobeats/uno-urban/commit/5a8aa5f">5a8aa5f</a>)</li>
+<li>little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/b6b760a">b6b760a</a>)</li>
+<li>Merge branch &apos;master&apos; of <a href="http://github.com">github.com</a>:Kikobeats/uno-zen (<a href="https://github.com/kikobeats/uno-urban/commit/cbd6219">cbd6219</a>)</li>
+<li>Merge branch &apos;master&apos; of <a href="http://github.com">github.com</a>:Kikobeats/uno-zen (<a href="https://github.com/kikobeats/uno-urban/commit/04542c5">04542c5</a>)</li>
+<li>released 2.0.1 (<a href="https://github.com/kikobeats/uno-urban/commit/dd50f60">dd50f60</a>)</li>
+<li>setup gulp with browserSync (<a href="https://github.com/kikobeats/uno-urban/commit/2e06d19">2e06d19</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/ee94b22">ee94b22</a>)</li>
+<li>WIP &#x2013; Added social buttons in post view (<a href="https://github.com/kikobeats/uno-urban/commit/b9d6330">b9d6330</a>)</li>
+<li>WIP &#x2013; Added styleguide for more things (<a href="https://github.com/kikobeats/uno-urban/commit/c939c1e">c939c1e</a>)</li>
+<li>WIP &#x2013; Adjust mobile and refactored (<a href="https://github.com/kikobeats/uno-urban/commit/f8d6e19">f8d6e19</a>)</li>
+<li>WIP &#x2013; adjust search markup (<a href="https://github.com/kikobeats/uno-urban/commit/44801e1">44801e1</a>)</li>
+<li>WIP &#x2013; Changed into only one share button (<a href="https://github.com/kikobeats/uno-urban/commit/eab7a04">eab7a04</a>)</li>
+<li>WIP &#x2013; Deleted unnecessary code (<a href="https://github.com/kikobeats/uno-urban/commit/c0369ea">c0369ea</a>)</li>
+<li>WIP &#x2013; fixed little issues (<a href="https://github.com/kikobeats/uno-urban/commit/f5db7a6">f5db7a6</a>)</li>
+<li>WIP &#x2013; Fixed search icon (<a href="https://github.com/kikobeats/uno-urban/commit/ee8ca5f">ee8ca5f</a>)</li>
+<li>WIP &#x2013; fixed social expanded (<a href="https://github.com/kikobeats/uno-urban/commit/b2df5d5">b2df5d5</a>)</li>
+<li>WIP &#x2013; improved experience in large desktops (<a href="https://github.com/kikobeats/uno-urban/commit/98b0880">98b0880</a>)</li>
+<li>WIP &#x2013; Improved mobile experience (<a href="https://github.com/kikobeats/uno-urban/commit/4847cd2">4847cd2</a>)</li>
+<li>WIP &#x2013; little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/dde3c67">dde3c67</a>)</li>
+<li>WIP &#x2013; Refactor aside into off canvas (table and mobile (<a href="https://github.com/kikobeats/uno-urban/commit/c9149c6">c9149c6</a>)</li>
+<li>WIP &#x2013; refactor CSS scaffold (<a href="https://github.com/kikobeats/uno-urban/commit/c710928">c710928</a>)</li>
+<li>WIP &#x2013; refactored 404 view (<a href="https://github.com/kikobeats/uno-urban/commit/63eaef6">63eaef6</a>)</li>
+<li>WIP &#x2013; refactored and delete unnecessary code (<a href="https://github.com/kikobeats/uno-urban/commit/a3fad93">a3fad93</a>)</li>
+<li>WIP &#x2013; refactored aside &amp; index (<a href="https://github.com/kikobeats/uno-urban/commit/21e2f3f">21e2f3f</a>)</li>
+<li>WIP &#x2013; Refactored post views (<a href="https://github.com/kikobeats/uno-urban/commit/db930bb">db930bb</a>)</li>
+<li>WIP &#x2013; refactored search view (<a href="https://github.com/kikobeats/uno-urban/commit/d7406b3">d7406b3</a>)</li>
+<li>WIP &#x2013; Refactored tags view and improve style (<a href="https://github.com/kikobeats/uno-urban/commit/dd2f0cf">dd2f0cf</a>)</li>
+<li>WIP &#x2013; refactored using rem as basic metric (<a href="https://github.com/kikobeats/uno-urban/commit/08bfca2">08bfca2</a>)</li>
+<li>WIP &#x2013; split scripts in two files (<a href="https://github.com/kikobeats/uno-urban/commit/a109b64">a109b64</a>)</li>
+</ul>
+<p><a name="1.3.2"></a></p>
+<h2 id="1.3.2-(2015-02-15)">1.3.2 (2015-02-15)</h2>
+<ul>
+<li>improved mobile experience (<a href="https://github.com/kikobeats/uno-urban/commit/ca5cc5b">ca5cc5b</a>)</li>
+<li>Update <a href="http://RODAMAP.md">RODAMAP.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/ee07464">ee07464</a>)</li>
+</ul>
+<p><a name="1.3.1"></a></p>
+<h2 id="1.3.1-(2015-02-15)">1.3.1 (2015-02-15)</h2>
+<ul>
+<li>fixed form in home (<a href="https://github.com/kikobeats/uno-urban/commit/b64489e">b64489e</a>)</li>
+</ul>
+<p><a name="1.3.0"></a></p>
+<h1 id="1.3.0-(2015-02-15)">1.3.0 (2015-02-15)</h1>
+<ul>
+<li>improved mobile experience and little refactor (<a href="https://github.com/kikobeats/uno-urban/commit/8074ba0">8074ba0</a>)</li>
+</ul>
+<p><a name="1.2.2"></a></p>
+<h2 id="1.2.2-(2015-02-15)">1.2.2 (2015-02-15)</h2>
+<ul>
+<li>Merge branch &apos;master&apos; of <a href="http://github.com">github.com</a>:Kikobeats/uno-zen (<a href="https://github.com/kikobeats/uno-urban/commit/e5ad9a0">e5ad9a0</a>)</li>
+<li>new build (<a href="https://github.com/kikobeats/uno-urban/commit/506cb0c">506cb0c</a>)</li>
+<li>refactor background filter (<a href="https://github.com/kikobeats/uno-urban/commit/fa4ee2d">fa4ee2d</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/cb56f93">cb56f93</a>)</li>
+</ul>
+<p><a name="1.2.1"></a></p>
+<h2 id="1.2.1-(2015-02-14)">1.2.1 (2015-02-14)</h2>
+<ul>
+<li>added context function and glitch effect (<a href="https://github.com/kikobeats/uno-urban/commit/d5b2c0f">d5b2c0f</a>)</li>
+<li>added error page (<a href="https://github.com/kikobeats/uno-urban/commit/f572957">f572957</a>)</li>
+<li>added minimal page error css (<a href="https://github.com/kikobeats/uno-urban/commit/7d37e47">7d37e47</a>)</li>
+<li>american style (<a href="https://github.com/kikobeats/uno-urban/commit/bb9d8b5">bb9d8b5</a>)</li>
+<li>fixed back button in high screen resolutions (<a href="https://github.com/kikobeats/uno-urban/commit/36324dc">36324dc</a>)</li>
+<li>formated all css (<a href="https://github.com/kikobeats/uno-urban/commit/3e48c1b">3e48c1b</a>)</li>
+</ul>
+<p><a name="1.1.24"></a></p>
+<h2 id="1.1.24-(2015-01-24)">1.1.24 (2015-01-24)</h2>
+<ul>
+<li>https is better (<a href="https://github.com/kikobeats/uno-urban/commit/646e642">646e642</a>)</li>
+<li>new build (<a href="https://github.com/kikobeats/uno-urban/commit/7a6ce18">7a6ce18</a>)</li>
+<li>removed google analytics meta (<a href="https://github.com/kikobeats/uno-urban/commit/7991a31">7991a31</a>)</li>
+<li>Update bower.json (<a href="https://github.com/kikobeats/uno-urban/commit/9964387">9964387</a>)</li>
+<li>Update package.json (<a href="https://github.com/kikobeats/uno-urban/commit/c5c5ed2">c5c5ed2</a>)</li>
+<li>Update social.hbs (<a href="https://github.com/kikobeats/uno-urban/commit/3d942d8">3d942d8</a>)</li>
+<li>updated google track code (<a href="https://github.com/kikobeats/uno-urban/commit/fe2a544">fe2a544</a>)</li>
+</ul>
+<p><a name="1.1.18"></a></p>
+<h2 id="1.1.18-(2015-01-18)">1.1.18 (2015-01-18)</h2>
+<ul>
+<li>convert post day in days (<a href="https://github.com/kikobeats/uno-urban/commit/8af7134">8af7134</a>)</li>
+<li>Date in days in index page (<a href="https://github.com/kikobeats/uno-urban/commit/1c7105a">1c7105a</a>)</li>
+<li>Update <a href="http://README.md">README.md</a> (<a href="https://github.com/kikobeats/uno-urban/commit/8834194">8834194</a>)</li>
+</ul>
+<p><a name="1.1.11"></a></p>
+<h2 id="1.1.11-(2015-01-10)">1.1.11 (2015-01-10)</h2>
+<ul>
+<li>changed how to load google analytics script (<a href="https://github.com/kikobeats/uno-urban/commit/0653e8a">0653e8a</a>)</li>
+<li>CSSCombo is your friend (<a href="https://github.com/kikobeats/uno-urban/commit/85c014a">85c014a</a>)</li>
+<li>fixed button padding (<a href="https://github.com/kikobeats/uno-urban/commit/cd6e493">cd6e493</a>)</li>
+<li>jshint is your friend (<a href="https://github.com/kikobeats/uno-urban/commit/04a3f85">04a3f85</a>)</li>
+<li>new build (<a href="https://github.com/kikobeats/uno-urban/commit/d8b51bb">d8b51bb</a>)</li>
+<li>refactor css scaffold (<a href="https://github.com/kikobeats/uno-urban/commit/746a526">746a526</a>)</li>
+<li>removed bourbon (<a href="https://github.com/kikobeats/uno-urban/commit/52a1011">52a1011</a>)</li>
+<li>renamed using underscore (<a href="https://github.com/kikobeats/uno-urban/commit/e9eca6b">e9eca6b</a>)</li>
+<li>welcome comments (<a href="https://github.com/kikobeats/uno-urban/commit/c9fcb02">c9fcb02</a>)</li>
+</ul>
+<p><a name="1.1.8"></a></p>
+<h2 id="1.1.8-(2015-01-08)">1.1.8 (2015-01-08)</h2>
+<ul>
+<li>merged with develop branch (<a href="https://github.com/kikobeats/uno-urban/commit/350a639">350a639</a>)</li>
+</ul>
+<p><a name="1.1.5"></a></p>
+<h2 id="1.1.5-(2015-01-05)">1.1.5 (2015-01-05)</h2>
+<ul>
+<li>first commit (<a href="https://github.com/kikobeats/uno-urban/commit/5a128ec">5a128ec</a>)</li>
+<li>updated and deleted unnecessary assets (<a href="https://github.com/kikobeats/uno-urban/commit/8b6dd00">8b6dd00</a>)</li>
+</ul>
+
+        </div>
+        <div class="footer-nav">
+          <div class="left"><a href="index.html"><span class="title">Uno Urban</span></a></div>
+          <div class="right"><a href="first-steps.html"><span class="label">Next: </span><span class="title">First Steps</span></a></div>
+        </div>
+      </div>
+      <div class="menu toc-menu">
+        <li class="menu-item -level-0 -parent">
+          <ul class="submenu">
+            <li class="menu-item -level-1"><a href="index.html" class="link title  link-index">Uno Urban</a>
+            </li>
+            <li class="menu-item -level-1"><a href="CHANGELOG.html" class="link title -active link-changelog">Changelog</a>
+              <ul class="headings heading-list">
+                <li class="heading-item -depth-2"><a href="#3.3.2-(2016-06-27)" class="hlink link-3.3.2-(2016-06-27)">3.3.2 (2016-06-27)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.3.1-(2016-06-27)" class="hlink link-3.3.1-(2016-06-27)">3.3.1 (2016-06-27)</a>
+                  <ul class="heading-list -depth-2">
+                    <li class="heading-item -depth-3"><a href="#bug:-fix-cover-opening" class="hlink link-bug:-fix-cover-opening">🐞Bug: Fix Cover opening 🐞</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#commits" class="hlink link-commits">Commits</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#new-feature:-full-text-search!" class="hlink link-new-feature:-full-text-search!">🎉 New feature: Full Text Search! 🎉</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#improvement:-general-perfomance." class="hlink link-improvement:-general-perfomance.">⚡️ Improvement: General Perfomance. ⚡️</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#improvement:-bundles-split." class="hlink link-improvement:-bundles-split.">⚡️ Improvement: Bundles split. ⚡️</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#improvement:-infinite-scroll." class="hlink link-improvement:-infinite-scroll.">⚡️ Improvement: Infinite Scroll. ⚡️</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#refactor:-docs." class="hlink link-refactor:-docs.">💅 Refactor: Docs. 💅</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#questions" class="hlink link-questions">🤓 Questions? 🤓</a>
+                    </li>
+                    <li class="heading-item -depth-3"><a href="#commits" class="hlink link-commits">Commits</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.2.3-(2016-06-05)" class="hlink link-3.2.3-(2016-06-05)">3.2.3 (2016-06-05)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.2.2-(2016-05-25)" class="hlink link-3.2.2-(2016-05-25)">3.2.2 (2016-05-25)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.2.1-(2016-05-13)" class="hlink link-3.2.1-(2016-05-13)">3.2.1 (2016-05-13)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.8-(2016-04-12)" class="hlink link-3.1.8-(2016-04-12)">3.1.8 (2016-04-12)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.7-(2016-03-20)" class="hlink link-3.1.7-(2016-03-20)">3.1.7 (2016-03-20)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.6-(2016-03-15)" class="hlink link-3.1.6-(2016-03-15)">3.1.6 (2016-03-15)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.5-(2016-03-12)" class="hlink link-3.1.5-(2016-03-12)">3.1.5 (2016-03-12)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.4-(2016-03-11)" class="hlink link-3.1.4-(2016-03-11)">3.1.4 (2016-03-11)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.3-(2016-03-06)" class="hlink link-3.1.3-(2016-03-06)">3.1.3 (2016-03-06)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.2-(2016-03-05)" class="hlink link-3.1.2-(2016-03-05)">3.1.2 (2016-03-05)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.1-(2016-03-02)" class="hlink link-3.1.1-(2016-03-02)">3.1.1 (2016-03-02)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.2-(2016-02-28)" class="hlink link-3.0.2-(2016-02-28)">3.0.2 (2016-02-28)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.1-(2016-02-27)" class="hlink link-3.0.1-(2016-02-27)">3.0.1 (2016-02-27)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.2-beta.0-(2016-02-27)" class="hlink link-3.1.2-beta.0-(2016-02-27)">3.1.2-beta.0 (2016-02-27)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.1.1-beta.0-(2016-02-27)" class="hlink link-3.1.1-beta.0-(2016-02-27)">3.1.1-beta.0 (2016-02-27)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.6-beta.0-(2016-02-26)" class="hlink link-3.0.6-beta.0-(2016-02-26)">3.0.6-beta.0 (2016-02-26)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.5-beta.0-(2016-02-26)" class="hlink link-3.0.5-beta.0-(2016-02-26)">3.0.5-beta.0 (2016-02-26)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.4-beta.0-(2016-02-26)" class="hlink link-3.0.4-beta.0-(2016-02-26)">3.0.4-beta.0 (2016-02-26)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.3-beta.0-(2016-02-25)" class="hlink link-3.0.3-beta.0-(2016-02-25)">3.0.3-beta.0 (2016-02-25)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.2-beta.0-(2016-02-24)" class="hlink link-3.0.2-beta.0-(2016-02-24)">3.0.2-beta.0 (2016-02-24)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#3.0.1-beta.0-(2016-02-24)" class="hlink link-3.0.1-beta.0-(2016-02-24)">3.0.1-beta.0 (2016-02-24)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.7.3-(2016-02-02)" class="hlink link-2.7.3-(2016-02-02)">2.7.3 (2016-02-02)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.7.2-(2016-01-19)" class="hlink link-2.7.2-(2016-01-19)">2.7.2 (2016-01-19)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.7.1-(2016-01-19)" class="hlink link-2.7.1-(2016-01-19)">2.7.1 (2016-01-19)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.10-(2016-01-06)" class="hlink link-2.6.10-(2016-01-06)">2.6.10 (2016-01-06)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.9-(2015-12-31)" class="hlink link-2.6.9-(2015-12-31)">2.6.9 (2015-12-31)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.8-(2015-12-30)" class="hlink link-2.6.8-(2015-12-30)">2.6.8 (2015-12-30)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.7-(2015-12-28)" class="hlink link-2.6.7-(2015-12-28)">2.6.7 (2015-12-28)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.6-(2015-12-26)" class="hlink link-2.6.6-(2015-12-26)">2.6.6 (2015-12-26)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.5-(2015-12-22)" class="hlink link-2.6.5-(2015-12-22)">2.6.5 (2015-12-22)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.4-(2015-12-16)" class="hlink link-2.6.4-(2015-12-16)">2.6.4 (2015-12-16)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.3-(2015-12-13)" class="hlink link-2.6.3-(2015-12-13)">2.6.3 (2015-12-13)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.2-(2015-12-10)" class="hlink link-2.6.2-(2015-12-10)">2.6.2 (2015-12-10)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.6.1-(2015-12-04)" class="hlink link-2.6.1-(2015-12-04)">2.6.1 (2015-12-04)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.7-(2015-10-11)" class="hlink link-2.5.7-(2015-10-11)">2.5.7 (2015-10-11)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.6-(2015-10-08)" class="hlink link-2.5.6-(2015-10-08)">2.5.6 (2015-10-08)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.5-(2015-10-04)" class="hlink link-2.5.5-(2015-10-04)">2.5.5 (2015-10-04)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.4-(2015-09-24)" class="hlink link-2.5.4-(2015-09-24)">2.5.4 (2015-09-24)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.3-(2015-09-18)" class="hlink link-2.5.3-(2015-09-18)">2.5.3 (2015-09-18)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.2-(2015-09-11)" class="hlink link-2.5.2-(2015-09-11)">2.5.2 (2015-09-11)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.5.1-(2015-09-09)" class="hlink link-2.5.1-(2015-09-09)">2.5.1 (2015-09-09)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.3.5-(2015-08-24)" class="hlink link-2.3.5-(2015-08-24)">2.3.5 (2015-08-24)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.3.4-(2015-08-15)" class="hlink link-2.3.4-(2015-08-15)">2.3.4 (2015-08-15)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.3.3-(2015-08-14)" class="hlink link-2.3.3-(2015-08-14)">2.3.3 (2015-08-14)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.3.2-(2015-08-14)" class="hlink link-2.3.2-(2015-08-14)">2.3.2 (2015-08-14)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.3.1-(2015-08-12)" class="hlink link-2.3.1-(2015-08-12)">2.3.1 (2015-08-12)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.7-(2015-08-07)" class="hlink link-2.2.7-(2015-08-07)">2.2.7 (2015-08-07)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.6-(2015-08-07)" class="hlink link-2.2.6-(2015-08-07)">2.2.6 (2015-08-07)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.5-(2015-08-02)" class="hlink link-2.2.5-(2015-08-02)">2.2.5 (2015-08-02)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.4-(2015-07-24)" class="hlink link-2.2.4-(2015-07-24)">2.2.4 (2015-07-24)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.3-(2015-06-19)" class="hlink link-2.2.3-(2015-06-19)">2.2.3 (2015-06-19)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.2-(2015-06-12)" class="hlink link-2.2.2-(2015-06-12)">2.2.2 (2015-06-12)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.2.1-(2015-05-17)" class="hlink link-2.2.1-(2015-05-17)">2.2.1 (2015-05-17)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.1.3-(2015-04-10)" class="hlink link-2.1.3-(2015-04-10)">2.1.3 (2015-04-10)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.1.2-(2015-04-02)" class="hlink link-2.1.2-(2015-04-02)">2.1.2 (2015-04-02)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.1.1-(2015-03-20)" class="hlink link-2.1.1-(2015-03-20)">2.1.1 (2015-03-20)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.0.3-(2015-03-08)" class="hlink link-2.0.3-(2015-03-08)">2.0.3 (2015-03-08)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.0.2-(2015-02-27)" class="hlink link-2.0.2-(2015-02-27)">2.0.2 (2015-02-27)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#2.0.1-(2015-02-26)" class="hlink link-2.0.1-(2015-02-26)">2.0.1 (2015-02-26)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.3.2-(2015-02-15)" class="hlink link-1.3.2-(2015-02-15)">1.3.2 (2015-02-15)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.3.1-(2015-02-15)" class="hlink link-1.3.1-(2015-02-15)">1.3.1 (2015-02-15)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.2.2-(2015-02-15)" class="hlink link-1.2.2-(2015-02-15)">1.2.2 (2015-02-15)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.2.1-(2015-02-14)" class="hlink link-1.2.1-(2015-02-14)">1.2.1 (2015-02-14)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.1.24-(2015-01-24)" class="hlink link-1.1.24-(2015-01-24)">1.1.24 (2015-01-24)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.1.18-(2015-01-18)" class="hlink link-1.1.18-(2015-01-18)">1.1.18 (2015-01-18)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.1.11-(2015-01-10)" class="hlink link-1.1.11-(2015-01-10)">1.1.11 (2015-01-10)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.1.8-(2015-01-08)" class="hlink link-1.1.8-(2015-01-08)">1.1.8 (2015-01-08)</a>
+                </li>
+                <li class="heading-item -depth-2"><a href="#1.1.5-(2015-01-05)" class="hlink link-1.1.5-(2015-01-05)">1.1.5 (2015-01-05)</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1 -parent"><span class="title">Development</span>
+              <ul class="submenu">
+                <li class="menu-item -level-2"><a href="first-steps.html" class="link title  link-first-steps">First Steps</a>
+                </li>
+                <li class="menu-item -level-2 -parent"><span class="title">Customization</span>
+                  <ul class="submenu">
+                    <li class="menu-item -level-3"><span class="title">General</span>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/colors.html" class="link title  link-customizationcolors">Colors</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/cover.html" class="link title  link-customizationcover">Cover</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/favicon.html" class="link title  link-customizationfavicon">Favicon</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/google-analytics.html" class="link title  link-customizationgoogle-analytics">Google Analytics</a>
+                    </li>
+                    <li class="menu-item -level-3"><span class="title">Post</span>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/comments.html" class="link title  link-customizationcomments">Comments</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/highlight-code.html" class="link title  link-customizationhighlight-code">Highlight Code</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/static-pages.html" class="link title  link-customizationstatic-pages">Static Pages</a>
+                    </li>
+                    <li class="menu-item -level-3"><span class="title">Index</span>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/posts-headline.html" class="link title  link-customizationposts-headline">Posts Headline</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/infinite-scroll.html" class="link title  link-customizationinfinite-scroll">Infinite Scroll</a>
+                    </li>
+                    <li class="menu-item -level-3"><a href="customization/search-engine/index.html" class="link title  link-customizationsearch-engine">Search Engine</a>
+                    </li>
+                    <li class="menu-item -level-3 -parent"><span class="title">Sidebar</span>
+                      <ul class="submenu">
+                        <li class="menu-item -level-4"><a href="customization/profile-subtitle.html" class="link title  link-customizationprofile-subtitle">Profile Subtitle</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="customization/profile-subtitle.html" class="link title  link-customizationprofile-subtitle-2">Profile Title</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="customization/social-networks.html" class="link title  link-customizationsocial-networks">Social Networks</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="customization/open-button.html" class="link title  link-customizationopen-button">Open Button</a>
+                        </li>
+                        <li class="menu-item -level-4"><a href="customization/links.html" class="link title  link-customizationlinks">Links</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="menu-item -level-1"><a href="tech-support.html" class="link title  link-tech-support">Tech Support</a>
+            </li>
+          </ul>
+        </li>
+      </div>
+    </div>
+  </body>
+</html>
