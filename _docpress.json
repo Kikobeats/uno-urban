@@ -1171,8 +1171,8 @@
     "docs/customization/links.md": "customization/links.html",
     "docs/tech-support.md": "tech-support.html",
     "docs/docpress.json": "docpress.json",
-    "docs/extra.css": "extra.css",
     "docs/extra.js": "extra.js",
+    "docs/extra.css": "extra.css",
     "docs/customization/search-engine/new-application.png": "customization/search-engine/new-application.png",
     "docs/customization/search-engine/preview.png": "customization/search-engine/preview.png"
   }
