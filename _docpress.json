@@ -26,6 +26,11 @@
         "slug": "changelog",
         "headings": [
           {
+            "title": "3.3.6 (2016-09-18)",
+            "depth": 2,
+            "id": "3.3.6-(2016-09-18)"
+          },
+          {
             "title": "3.3.5 (2016-08-04)",
             "depth": 2,
             "id": "3.3.5-(2016-08-04)"
@@ -595,6 +600,7 @@
     "index.html": {
       "source": "README.md",
       "title": "Uno Urban",
+      "pageTitle": "Uno Urban",
       "slug": "index",
       "headings": [
         {
@@ -611,9 +617,15 @@
     },
     "CHANGELOG.html": {
       "source": "CHANGELOG.md",
-      "title": "Changelog",
+      "title": "Changelog - Uno Urban",
+      "pageTitle": "Changelog",
       "slug": "changelog",
       "headings": [
+        {
+          "title": "3.3.6 (2016-09-18)",
+          "depth": 2,
+          "id": "3.3.6-(2016-09-18)"
+        },
         {
           "title": "3.3.5 (2016-08-04)",
           "depth": 2,
@@ -1030,57 +1042,68 @@
     },
     "first-steps.html": {
       "source": "docs/first-steps.md",
-      "title": "First Steps",
+      "title": "First Steps - Uno Urban",
+      "pageTitle": "First Steps",
       "slug": "first-steps"
     },
     "customization/colors.html": {
       "source": "docs/customization/colors.md",
-      "title": "Colors",
+      "title": "Colors - Uno Urban",
+      "pageTitle": "Colors",
       "slug": "customizationcolors"
     },
     "customization/cover.html": {
       "source": "docs/customization/cover.md",
-      "title": "Cover",
+      "title": "Cover - Uno Urban",
+      "pageTitle": "Cover",
       "slug": "customizationcover"
     },
     "customization/favicon.html": {
       "source": "docs/customization/favicon.md",
-      "title": "Favicon",
+      "title": "Favicon - Uno Urban",
+      "pageTitle": "Favicon",
       "slug": "customizationfavicon"
     },
     "customization/google-analytics.html": {
       "source": "docs/customization/google-analytics.md",
-      "title": "Google Analytics",
+      "title": "Google Analytics - Uno Urban",
+      "pageTitle": "Google Analytics",
       "slug": "customizationgoogle-analytics"
     },
     "customization/comments.html": {
       "source": "docs/customization/comments.md",
-      "title": "Comments",
+      "title": "Comments - Uno Urban",
+      "pageTitle": "Comments",
       "slug": "customizationcomments"
     },
     "customization/highlight-code.html": {
       "source": "docs/customization/highlight-code.md",
-      "title": "Highlight Code",
+      "title": "Highlight Code - Uno Urban",
+      "pageTitle": "Highlight Code",
       "slug": "customizationhighlight-code"
     },
     "customization/static-pages.html": {
       "source": "docs/customization/static-pages.md",
-      "title": "Static Pages",
+      "title": "Static Pages - Uno Urban",
+      "pageTitle": "Static Pages",
       "slug": "customizationstatic-pages"
     },
     "customization/posts-headline.html": {
       "source": "docs/customization/posts-headline.md",
-      "title": "Posts Headline",
+      "title": "Posts Headline - Uno Urban",
+      "pageTitle": "Posts Headline",
       "slug": "customizationposts-headline"
     },
     "customization/infinite-scroll.html": {
       "source": "docs/customization/infinite-scroll.md",
-      "title": "Infinite Scroll",
+      "title": "Infinite Scroll - Uno Urban",
+      "pageTitle": "Infinite Scroll",
       "slug": "customizationinfinite-scroll"
     },
     "customization/search-engine/index.html": {
       "source": "docs/customization/search-engine/README.md",
-      "title": "Search Engine",
+      "title": "Search Engine - Uno Urban",
+      "pageTitle": "Search Engine",
       "slug": "customizationsearch-engine",
       "headings": [
         {
@@ -1109,27 +1132,32 @@
     },
     "customization/profile-subtitle.html": {
       "source": "docs/customization/profile-subtitle.md",
-      "title": "Profile Title",
+      "title": "Profile Title - Uno Urban",
+      "pageTitle": "Profile Title",
       "slug": "customizationprofile-subtitle-2"
     },
     "customization/social-networks.html": {
       "source": "docs/customization/social-networks.md",
-      "title": "Social Networks",
+      "title": "Social Networks - Uno Urban",
+      "pageTitle": "Social Networks",
       "slug": "customizationsocial-networks"
     },
     "customization/open-button.html": {
       "source": "docs/customization/open-button.md",
-      "title": "Open Button",
+      "title": "Open Button - Uno Urban",
+      "pageTitle": "Open Button",
       "slug": "customizationopen-button"
     },
     "customization/links.html": {
       "source": "docs/customization/links.md",
-      "title": "Links",
+      "title": "Links - Uno Urban",
+      "pageTitle": "Links",
       "slug": "customizationlinks"
     },
     "tech-support.html": {
       "source": "docs/tech-support.md",
-      "title": "Tech Support",
+      "title": "Tech Support - Uno Urban",
+      "pageTitle": "Tech Support",
       "slug": "tech-support"
     }
   },
