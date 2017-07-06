@@ -1,6 +1,6 @@
 # Uno Urban for Ghost
 
-![Ghost version](https://img.shields.io/badge/Ghost-0.11.x-brightgreen.svg?style=flat-square) ![Node version](https://img.shields.io/badge/node-^4.2.0-yellow.svg?style=flat-square) [![Buy it](https://img.shields.io/badge/buy-5$-ff69b4.svg?style=flat-square)](https://sellfy.com/p/G5kK)
+![Ghost version](https://img.shields.io/badge/Ghost-0.11.x-brightgreen.svg?style=flat-square) ![Node version](https://img.shields.io/badge/node-^4.2.0-yellow.svg?style=flat-square) [![Buy it](https://img.shields.io/badge/buy-10$-ff69b4.svg?style=flat-square)](https://sellfy.com/p/G5kK)
 
 > Simple and Elegant personal theme for Ghost.
 > Customers place for questions and reports issues.
